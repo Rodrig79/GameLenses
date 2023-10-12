@@ -4,14 +4,15 @@ import VoteButton from "./VoteButton";
 interface Props {
   topIndex: number;
   bottomIndex: number;
+  refreshCards: ()=>void
 }
 
-const VoteButtons: React.FC<Props> = ({ topIndex = 0, bottomIndex = 1 }) => {
+const VoteButtons: React.FC<Props> = ({ topIndex = 0, bottomIndex = 1, refreshCards }) => {
   const topCard = CardArray[topIndex];
   const bottomCard = CardArray[bottomIndex];
 
   const voteForIndex = (index: number) => {
-    
+    refreshCards()
   };
 
 
