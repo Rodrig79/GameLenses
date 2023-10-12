@@ -2,6 +2,10 @@
     "include": [
         "./src/**/*"
     ],
+    "typeRoots": [
+        "node_modules/@types", // Default
+        "src/types" // If your .d.ts file is in a different location
+      ],
     "compilerOptions": {
         "strict": true,
         "esModuleInterop": true,

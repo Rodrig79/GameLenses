@@ -1,28 +1,24 @@
 import "./styles.scss";
-import CardHeader from "./components/CardHeader";
-import CardBody from "./components/CardBody";
-import CardFooter from "./components/CardFooter";
-import PageButtons from "./components/PageButtons";
-
-import { CardArray } from "./CardArray";
-import { useEffect, useState } from "react";
-import { GameLensType } from "./components/GameLensType";
+import SingleCardView from "./components/single-view/SingleCardView";
+import MultiCardView from "./components/multi-view/MultiCardView";
+import { useState } from "react";
 
 export default function App() {
-  const [index, setIndex] = useState(0);
-  const [cardInfo, setCardInfo] = useState<GameLensType>(CardArray[0]);
-
-  useEffect(() => {
-    const newCardInfo = CardArray[index];
-    setCardInfo(newCardInfo);
-  }, [index]);
+  const [multiViewON, setMultiViewON] = useState(true);
 
   return (
     <div className="App">
-      <CardHeader cardInfo={cardInfo} />
-      <CardBody cardInfo={cardInfo} />
-      <CardFooter cardInfo={cardInfo} />
-      <PageButtons index={index} setIndex={setIndex} />
+      <div className="top_bar">
+        <label>{multiViewON ? "Multi-View" : "Single-View"}</label>
+        <button
+          onClick={() => {
+            setMultiViewON(!multiViewON);
+          }}
+        >
+          {multiViewON ? "Switch to Single-View" : "Switch to Multi-View"}
+        </button>
+      </div>
+      {multiViewON ? <MultiCardView /> : <SingleCardView />}
     </div>
   );
 }

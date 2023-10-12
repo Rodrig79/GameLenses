@@ -1,8 +1,6 @@
 .App {
-  position: absolute;
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   font-family: sans-serif;
   text-align: center;
@@ -13,8 +11,23 @@
   max-width: 100vw;
   color: black;
   font-size: 24px;
-  padding-bottom: 10%;
-  
+  inset-inline-end: 0;
+  inset-inline-start: 0;
+
+}
+
+.top_bar{
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 42px;
+  background: grey;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 0;
+  z-index: 10;
+  color: white;
+  letter-spacing: 1px;
 }
 
 .header{
@@ -26,6 +39,24 @@
   width: 100%;
 }
 
+.clipboard_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  min-height: 42px;
+
+  &:hover{
+    cursor: pointer;
+  }
+
+  &:active{
+    transform: translateY(6px);
+    background: aqua;
+    color: white;
+  }
+}
+
 .body{
   display: flex;
   flex: 2;
@@ -33,6 +64,7 @@
   justify-content: center;
   height: 100%;
   width: 100%;
+  flex-direction: column;
 }
 
 .footer{
@@ -71,3 +103,4 @@
     transform: translateY(6px);
   }
 }
+

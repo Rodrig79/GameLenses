@@ -1209,23 +1209,7 @@ export const CardArray: GameLensType[] = [
     imageID: "67",
     artist: "Patrick Collins"
   },
-  {
-    name: "67�",
-    index: 67.5,
-    title: "Metaphor",
-    cardTitle: "The Lens of Metaphor",
-    suitlist: ["Game"],
-    description:
-      "Game interfaces often mimic interfaces to things that are already familiar to players. To make sure your metaphors are aiding players� understanding, and not confusing them, ask yourself these questions:",
-    questionlist: [
-      "Is my interface already a metaphor for something else?",
-      "If it is a metaphor, am I making the most of that metaphor? Or is the metaphor getting in the way?",
-      "If it isn�t a metaphor, would it be more intuitive if it were?"
-    ],
-    thumbID: "lens_thumb067_5",
-    imageID: "67_5",
-    artist: "Derek Hetrick"
-  },
+
   {
     name: "68",
     index: 68,
@@ -2069,5 +2053,22 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb095_5",
     imageID: "95_5",
     artist: "Derek Hetrick"
-  }
+  },
+  {
+    name: "116",
+    index: 116,
+    title: "Metaphor",
+    cardTitle: "The Lens of Metaphor",
+    suitlist: ["Game"],
+    description:
+      "Game interfaces often mimic interfaces to things that are already familiar to players. To make sure your metaphors are aiding players� understanding, and not confusing them, ask yourself these questions:",
+    questionlist: [
+      "Is my interface already a metaphor for something else?",
+      "If it is a metaphor, am I making the most of that metaphor? Or is the metaphor getting in the way?",
+      "If it isn�t a metaphor, would it be more intuitive if it were?"
+    ],
+    thumbID: "lens_thumb067_5",
+    imageID: "67_5",
+    artist: "Derek Hetrick"
+  },
 ];

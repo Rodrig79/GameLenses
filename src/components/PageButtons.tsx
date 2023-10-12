@@ -15,19 +15,19 @@ const PageButtons: React.FC<Props> = ({ index, setIndex }) => {
     if (index > 0) {
       newIndex = index - 1;
     }
-    setInputValue(newIndex.toString());
+    setInputValue((newIndex + 1).toString());
     setIndex(newIndex);
   };
 
   const pageUp = () => {
     var newIndex = index;
 
-    if (index < CardArray.length) {
+    if (index < CardArray.length - 1) {
       newIndex = index + 1;
     } else {
       newIndex = CardArray.length - 1;
     }
-    setInputValue(newIndex.toString());
+    setInputValue((newIndex + 1 ).toString());
     setIndex(newIndex);
   };
 
@@ -38,7 +38,7 @@ const PageButtons: React.FC<Props> = ({ index, setIndex }) => {
     } else if (newValue < 0) {
       newValue = 0;
     }
-    setInputValue(newValue);
+    setInputValue((newValue + 1).toString());
     setIndex(newValue);
   };
 
