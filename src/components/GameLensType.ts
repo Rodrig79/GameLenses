@@ -9,4 +9,5 @@ export type GameLensType = {
   thumbID: string;
   imageID: string;
   artist: string;
+  advice: string;
 };

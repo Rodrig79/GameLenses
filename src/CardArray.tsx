@@ -16,7 +16,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb001",
     imageID: "1",
-    artist: "Rachel Dorrett"
+    artist: "Rachel Dorrett",
+    advice: "aaa",
   },
   {
     name: "2",
@@ -33,7 +34,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb002",
     imageID: "2",
-    artist: "Zachary D. Coe"
+    artist: "Zachary D. Coe",
+    advice: "aaa",
   },
   {
     name: "3",
@@ -50,7 +52,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb003",
     imageID: "3",
-    artist: "Zachary D. Coe"
+    artist: "Zachary D. Coe",
+    advice: "aaa",
   },
   {
     name: "4",
@@ -68,7 +71,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb004",
     imageID: "4",
-    artist: "Diana Patton"
+    artist: "Diana Patton",
+    advice: "aaa",
   },
   {
     name: "5",
@@ -84,7 +88,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb005",
     imageID: "5",
-    artist: "Jon Schulte"
+    artist: "Jon Schulte",
+    advice: "aaa",
   },
   {
     name: "6",
@@ -101,7 +106,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb006",
     imageID: "6",
-    artist: "Emma Backer"
+    artist: "Emma Backer",
+    advice: "aaa",
   },
   {
     name: "7",
@@ -118,7 +124,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb007",
     imageID: "7",
-    artist: "Melanie Lam"
+    artist: "Melanie Lam",
+    advice: "aaa",
   },
   {
     name: "8",
@@ -135,7 +142,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb008",
     imageID: "8",
-    artist: "Cheryl Ceol"
+    artist: "Cheryl Ceol",
+    advice: "aaa",
   },
   {
     name: "9",
@@ -152,7 +160,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb009",
     imageID: "9",
-    artist: "Reagan Heller"
+    artist: "Reagan Heller",
+    advice: "aaa",
   },
   {
     name: "10",
@@ -169,7 +178,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb010",
     imageID: "10",
-    artist: "Zachary D. Coe"
+    artist: "Zachary D. Coe",
+    advice: "aaa",
   },
   {
     name: "11",
@@ -185,7 +195,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb011",
     imageID: "11",
-    artist: "Diana Patton"
+    artist: "Diana Patton",
+    advice: "aaa",
   },
   {
     name: "12",
@@ -203,7 +214,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb012",
     imageID: "12",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "13",
@@ -219,7 +231,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb013",
     imageID: "13",
-    artist: "Sam Yip"
+    artist: "Sam Yip",
+    advice: "aaa",
   },
   {
     name: "14",
@@ -237,7 +250,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb014",
     imageID: "14",
-    artist: "Cheryl Ceol"
+    artist: "Cheryl Ceol",
+    advice: "aaa",
   },
   {
     name: "15",
@@ -259,7 +273,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb015",
     imageID: "15",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
   {
     name: "16",
@@ -275,7 +290,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb016",
     imageID: "16",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
   {
     name: "17",
@@ -291,7 +307,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb017",
     imageID: "17",
-    artist: "Camilla Kydland"
+    artist: "Camilla Kydland",
+    advice: "aaa",
   },
   {
     name: "18",
@@ -308,7 +325,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb018",
     imageID: "18",
-    artist: "Rachel Dorrett"
+    artist: "Rachel Dorrett",
+    advice: "aaa",
   },
   {
     name: "19",
@@ -327,7 +345,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb019",
     imageID: "19",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "20",
@@ -343,7 +362,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb020",
     imageID: "20",
-    artist: "Jim Rugg"
+    artist: "Jim Rugg",
+    advice: "aaa",
   },
   {
     name: "21",
@@ -362,7 +382,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb021",
     imageID: "21",
-    artist: "Diana Patton"
+    artist: "Diana Patton",
+    advice: "aaa",
   },
   {
     name: "22",
@@ -380,7 +401,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb022",
     imageID: "22",
-    artist: "Chuck Hoover"
+    artist: "Chuck Hoover",
+    advice: "aaa",
   },
   {
     name: "23",
@@ -399,7 +421,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb023",
     imageID: "23",
-    artist: "Dan Lin"
+    artist: "Dan Lin",
+    advice: "aaa",
   },
   {
     name: "24",
@@ -417,7 +440,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb024",
     imageID: "24",
-    artist: "Zachary D. Coe"
+    artist: "Zachary D. Coe",
+    advice: "aaa",
   },
   {
     name: "25",
@@ -436,7 +460,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb025",
     imageID: "25",
-    artist: "Joseph Grubb"
+    artist: "Joseph Grubb",
+    advice: "aaa",
   },
   {
     name: "26",
@@ -455,7 +480,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb026",
     imageID: "26",
-    artist: "Cheryl Ceol"
+    artist: "Cheryl Ceol",
+    advice: "aaa",
   },
   {
     name: "27",
@@ -473,7 +499,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb027",
     imageID: "27",
-    artist: "Sam Yip"
+    artist: "Sam Yip",
+    advice: "aaa",
   },
   {
     name: "28",
@@ -491,7 +518,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb028",
     imageID: "28",
-    artist: "Chuck Hoover"
+    artist: "Chuck Hoover",
+    advice: "aaa",
   },
   {
     name: "29",
@@ -509,7 +537,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb029",
     imageID: "29",
-    artist: "Lilian Qian"
+    artist: "Lilian Qian",
+    advice: "aaa",
   },
   {
     name: "30",
@@ -528,7 +557,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb030",
     imageID: "30",
-    artist: "Reagan Heller"
+    artist: "Reagan Heller",
+    advice: "aaa",
   },
   {
     name: "31",
@@ -547,7 +577,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb031",
     imageID: "31",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "32",
@@ -568,7 +599,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb032",
     imageID: "32",
-    artist: "Zachary D. Coe"
+    artist: "Zachary D. Coe",
+    advice: "aaa",
   },
   {
     name: "33",
@@ -587,7 +619,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb033",
     imageID: "33",
-    artist: "Joshua Seaver"
+    artist: "Joshua Seaver",
+    advice: "aaa",
   },
   {
     name: "34",
@@ -609,7 +642,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb034",
     imageID: "34",
-    artist: "Emma Backer"
+    artist: "Emma Backer",
+    advice: "aaa",
   },
   {
     name: "35",
@@ -627,7 +661,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb035",
     imageID: "35",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "36",
@@ -646,7 +681,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb036",
     imageID: "36",
-    artist: "Joshua Seaver"
+    artist: "Joshua Seaver",
+    advice: "aaa",
   },
   {
     name: "37",
@@ -664,7 +700,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb037",
     imageID: "37",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "38",
@@ -684,7 +721,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb038",
     imageID: "38",
-    artist: "Reagan Heller"
+    artist: "Reagan Heller",
+    advice: "aaa",
   },
   {
     name: "39",
@@ -702,7 +740,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb039",
     imageID: "39",
-    artist: "Chuck Hoover"
+    artist: "Chuck Hoover",
+    advice: "aaa",
   },
   {
     name: "40",
@@ -718,7 +757,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb040",
     imageID: "40",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "41",
@@ -736,7 +776,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb041",
     imageID: "41",
-    artist: "Nathan Mazur"
+    artist: "Nathan Mazur",
+    advice: "aaa",
   },
   {
     name: "42",
@@ -755,7 +796,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb042",
     imageID: "42",
-    artist: "Lisa Brown"
+    artist: "Lisa Brown",
+    advice: "aaa",
   },
   {
     name: "43",
@@ -775,7 +817,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb043",
     imageID: "43",
-    artist: "Elizabeth Barndollar"
+    artist: "Elizabeth Barndollar",
+    advice: "aaa",
   },
   {
     name: "44",
@@ -793,7 +836,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb044",
     imageID: "44",
-    artist: "Sam Yip"
+    artist: "Sam Yip",
+    advice: "aaa",
   },
   {
     name: "45",
@@ -811,7 +855,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb045",
     imageID: "45",
-    artist: "Diana Patton"
+    artist: "Diana Patton",
+    advice: "aaa",
   },
   {
     name: "46",
@@ -831,7 +876,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb046",
     imageID: "46",
-    artist: "Elizabeth Barndollar"
+    artist: "Elizabeth Barndollar",
+    advice: "aaa",
   },
   {
     name: "47",
@@ -850,7 +896,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb047",
     imageID: "47",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
   {
     name: "48",
@@ -868,7 +915,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb048",
     imageID: "48",
-    artist: "Tom Smith"
+    artist: "Tom Smith",
+    advice: "aaa",
   },
   {
     name: "49",
@@ -886,7 +934,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb049",
     imageID: "49",
-    artist: "Joshua Seaver"
+    artist: "Joshua Seaver",
+    advice: "aaa",
   },
   {
     name: "50",
@@ -903,7 +952,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb050",
     imageID: "50",
-    artist: "Kyle Gabler"
+    artist: "Kyle Gabler",
+    advice: "aaa",
   },
   {
     name: "51",
@@ -923,7 +973,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb051",
     imageID: "51",
-    artist: "Elizabeth Barndollar"
+    artist: "Elizabeth Barndollar",
+    advice: "aaa",
   },
   {
     name: "52",
@@ -942,7 +993,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb052",
     imageID: "52",
-    artist: "Sam Yip"
+    artist: "Sam Yip",
+    advice: "aaa",
   },
   {
     name: "53",
@@ -955,7 +1007,8 @@ export const CardArray: GameLensType[] = [
     questionlist: ["Does my game feel right?"],
     thumbID: "lens_thumb053",
     imageID: "53",
-    artist: "Sam Yip"
+    artist: "Sam Yip",
+    advice: "aaa",
   },
   {
     name: "54",
@@ -972,7 +1025,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb054",
     imageID: "54",
-    artist: "Karen Phillips"
+    artist: "Karen Phillips",
+    advice: "aaa",
   },
   {
     name: "55",
@@ -989,7 +1043,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb055",
     imageID: "55",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "56",
@@ -1006,7 +1061,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb056",
     imageID: "56",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "57",
@@ -1023,7 +1079,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb057",
     imageID: "57",
-    artist: "Sam Yip"
+    artist: "Sam Yip",
+    advice: "aaa",
   },
   {
     name: "58",
@@ -1041,7 +1098,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb058",
     imageID: "58",
-    artist: "Elizabeth Barndollar"
+    artist: "Elizabeth Barndollar",
+    advice: "aaa",
   },
   {
     name: "59",
@@ -1059,7 +1117,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb059",
     imageID: "59",
-    artist: "Nathan Mazur"
+    artist: "Nathan Mazur",
+    advice: "aaa",
   },
   {
     name: "60",
@@ -1078,7 +1137,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb060",
     imageID: "60",
-    artist: "Zachary D. Coe"
+    artist: "Zachary D. Coe",
+    advice: "aaa",
   },
   {
     name: "61",
@@ -1097,7 +1157,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb061",
     imageID: "61",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
   {
     name: "62",
@@ -1117,7 +1178,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb062",
     imageID: "62",
-    artist: "Jesse Schell"
+    artist: "Jesse Schell",
+    advice: "aaa",
   },
   {
     name: "63",
@@ -1136,7 +1198,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb063",
     imageID: "63",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "64",
@@ -1153,7 +1216,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb064",
     imageID: "64",
-    artist: "Patrick Mittereder"
+    artist: "Patrick Mittereder",
+    advice: "aaa",
   },
   {
     name: "65",
@@ -1169,7 +1233,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb065",
     imageID: "65",
-    artist: "Astro Leon-Jhong"
+    artist: "Astro Leon-Jhong",
+    advice: "aaa",
   },
   {
     name: "66",
@@ -1189,7 +1254,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb066",
     imageID: "66",
-    artist: "Elizabeth Barndollar"
+    artist: "Elizabeth Barndollar",
+    advice: "aaa",
   },
   {
     name: "67",
@@ -1207,7 +1273,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb067",
     imageID: "67",
-    artist: "Patrick Collins"
+    artist: "Patrick Collins",
+    advice: "aaa",
   },
 
   {
@@ -1224,7 +1291,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb068",
     imageID: "68",
-    artist: "Kim Kiser"
+    artist: "Kim Kiser",
+    advice: "aaa",
   },
   {
     name: "69",
@@ -1245,7 +1313,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb069",
     imageID: "69",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
   {
     name: "70",
@@ -1264,7 +1333,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb070",
     imageID: "70",
-    artist: "Patrick Mittereder"
+    artist: "Patrick Mittereder",
+    advice: "aaa",
   },
   {
     name: "71",
@@ -1281,7 +1351,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb071",
     imageID: "71",
-    artist: "Kyle Gabler"
+    artist: "Kyle Gabler",
+    advice: "aaa",
   },
   {
     name: "72",
@@ -1301,7 +1372,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb072",
     imageID: "72",
-    artist: "Kyle Gabler"
+    artist: "Kyle Gabler",
+    advice: "aaa",
   },
   {
     name: "73",
@@ -1320,7 +1392,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb073",
     imageID: "73",
-    artist: "Jim Rugg"
+    artist: "Jim Rugg",
+    advice: "aaa",
   },
   {
     name: "74",
@@ -1340,7 +1413,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb074",
     imageID: "74",
-    artist: "Sam Yip"
+    artist: "Sam Yip",
+    advice: "aaa",
   },
   {
     name: "75",
@@ -1357,7 +1431,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb075",
     imageID: "75",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "76",
@@ -1375,7 +1450,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb076",
     imageID: "76",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
   {
     name: "77",
@@ -1393,7 +1469,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb077",
     imageID: "77",
-    artist: "Reagan Heller"
+    artist: "Reagan Heller",
+    advice: "aaa",
   },
   {
     name: "78",
@@ -1412,7 +1489,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb078",
     imageID: "78",
-    artist: "Diana Patton"
+    artist: "Diana Patton",
+    advice: "aaa",
   },
   {
     name: "79",
@@ -1430,7 +1508,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb079",
     imageID: "79",
-    artist: "Nathan Mazur"
+    artist: "Nathan Mazur",
+    advice: "aaa",
   },
   {
     name: "80",
@@ -1448,7 +1527,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb080",
     imageID: "80",
-    artist: "Astro Leon-Jhong"
+    artist: "Astro Leon-Jhong",
+    advice: "aaa",
   },
   {
     name: "81",
@@ -1470,7 +1550,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb081",
     imageID: "81",
-    artist: "Cheryl Ceol"
+    artist: "Cheryl Ceol",
+    advice: "aaa",
   },
   {
     name: "82",
@@ -1486,7 +1567,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb082",
     imageID: "82",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "83",
@@ -1503,7 +1585,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb083",
     imageID: "83",
-    artist: "Ryan Yee"
+    artist: "Ryan Yee",
+    advice: "aaa",
   },
   {
     name: "84",
@@ -1520,7 +1603,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb084",
     imageID: "84",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "85",
@@ -1536,7 +1620,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb085",
     imageID: "85",
-    artist: "Cheryl Ceol"
+    artist: "Cheryl Ceol",
+    advice: "aaa",
   },
   {
     name: "86",
@@ -1556,7 +1641,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb086",
     imageID: "86",
-    artist: "Sam Yip"
+    artist: "Sam Yip",
+    advice: "aaa",
   },
   {
     name: "87",
@@ -1572,7 +1658,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb087",
     imageID: "87",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "88",
@@ -1589,7 +1676,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb088",
     imageID: "88",
-    artist: "Kwame' Babb"
+    artist: "Kwame' Babb",
+    advice: "aaa",
   },
   {
     name: "89",
@@ -1606,7 +1694,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb089",
     imageID: "89",
-    artist: "Diana Patton"
+    artist: "Diana Patton",
+    advice: "aaa",
   },
   {
     name: "90",
@@ -1624,7 +1713,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb090",
     imageID: "90",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
   {
     name: "91",
@@ -1643,7 +1733,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb091",
     imageID: "91",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
   {
     name: "92",
@@ -1661,7 +1752,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb092",
     imageID: "92",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "93",
@@ -1679,7 +1771,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb093",
     imageID: "93",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
 
   {
@@ -1696,7 +1789,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb094",
     imageID: "94",
-    artist: "Ryan Yee"
+    artist: "Ryan Yee",
+    advice: "aaa",
   },
   {
     name: "95",
@@ -1712,7 +1806,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb095",
     imageID: "95",
-    artist: "Josh Hendryx"
+    artist: "Josh Hendryx",
+    advice: "aaa",
   },
 
   {
@@ -1732,7 +1827,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb096",
     imageID: "96",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "97",
@@ -1749,7 +1845,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb097",
     imageID: "97",
-    artist: "Nathan Mazur"
+    artist: "Nathan Mazur",
+    advice: "aaa",
   },
   {
     name: "98",
@@ -1768,7 +1865,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb098",
     imageID: "98",
-    artist: "Diana Patton"
+    artist: "Diana Patton",
+    advice: "aaa",
   },
   {
     name: "99",
@@ -1785,7 +1883,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb099",
     imageID: "99",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "100",
@@ -1801,7 +1900,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb100",
     imageID: "100",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "101",
@@ -1821,7 +1921,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb101",
     imageID: "101",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "102",
@@ -1837,7 +1938,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb102",
     imageID: "102",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "103",
@@ -1856,7 +1958,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb103",
     imageID: "103",
-    artist: "Chris Daniel"
+    artist: "Chris Daniel",
+    advice: "aaa",
   },
   {
     name: "104",
@@ -1875,7 +1978,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb104",
     imageID: "104",
-    artist: "Joseph Grubb"
+    artist: "Joseph Grubb",
+    advice: "aaa",
   },
   {
     name: "105",
@@ -1892,7 +1996,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb105",
     imageID: "105",
-    artist: "Diana Patton"
+    artist: "Diana Patton",
+    advice: "aaa",
   },
   {
     name: "106",
@@ -1910,7 +2015,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb106",
     imageID: "106",
-    artist: "Ryan Yee"
+    artist: "Ryan Yee",
+    advice: "aaa",
   },
   {
     name: "107",
@@ -1927,7 +2033,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb107",
     imageID: "107",
-    artist: "Kyle Gabler"
+    artist: "Kyle Gabler",
+    advice: "aaa",
   },
   {
     name: "108",
@@ -1945,7 +2052,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb108",
     imageID: "108",
-    artist: "Nathan Mazur"
+    artist: "Nathan Mazur",
+    advice: "aaa",
   },
   {
     name: "109",
@@ -1963,7 +2071,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb109",
     imageID: "109",
-    artist: "Nick Daniel"
+    artist: "Nick Daniel",
+    advice: "aaa",
   },
   {
     name: "110",
@@ -1979,7 +2088,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb110",
     imageID: "110",
-    artist: "Nathan Mazur"
+    artist: "Nathan Mazur",
+    advice: "aaa",
   },
   {
     name: "111",
@@ -1992,7 +2102,8 @@ export const CardArray: GameLensType[] = [
     questionlist: ["Does my game help people?  How?"],
     thumbID: "lens_thumb111",
     imageID: "111",
-    artist: "Zachary D. Coe"
+    artist: "Zachary D. Coe",
+    advice: "aaa",
   },
   {
     name: "112",
@@ -2005,7 +2116,8 @@ export const CardArray: GameLensType[] = [
     questionlist: ["Is making this game worth my time?"],
     thumbID: "lens_thumb112",
     imageID: "112",
-    artist: "Tom Smith"
+    artist: "Tom Smith",
+    advice: "aaa",
   },
   {
     name: "113",
@@ -2018,7 +2130,8 @@ export const CardArray: GameLensType[] = [
     questionlist: ["Why am I doing this?"],
     thumbID: "lens_thumb113",
     imageID: "113",
-    artist: "Todd Swanson"
+    artist: "Todd Swanson",
+    advice: "aaa",
   },
   {
     name: "114",
@@ -2035,7 +2148,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb093_5",
     imageID: "93_5",
-    artist: "Josh Hendryx"
+    artist: "Josh Hendryx",
+    advice: "aaa",
   },
   {
     name: "115",
@@ -2052,7 +2166,8 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb095_5",
     imageID: "95_5",
-    artist: "Derek Hetrick"
+    artist: "Derek Hetrick",
+    advice: "aaa",
   },
   {
     name: "116",
@@ -2069,6 +2184,7 @@ export const CardArray: GameLensType[] = [
     ],
     thumbID: "lens_thumb067_5",
     imageID: "67_5",
-    artist: "Derek Hetrick"
+    artist: "Derek Hetrick",
+    advice: "aaa",
   },
 ];

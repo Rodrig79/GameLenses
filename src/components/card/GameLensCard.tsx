@@ -1,5 +1,4 @@
 import "./GameLensCard.scss";
-import { GameLensType } from "../GameLensType";
 import { CardArray } from "../../CardArray";
 import GameLensCard_Image from "./image/GameLensCard_Image";
 import GameLensCard_Info from "./info/GameLensCard_Info";
@@ -10,8 +9,6 @@ interface Props {
 
 const GameLensCard: React.FC<Props> = ({ index = 0 }) => {
   const cardInfo = CardArray?.[index];
-  const title = cardInfo?.cardTitle;
-  const description = cardInfo?.description;
 
   return (
     <div className={"game_card"}>

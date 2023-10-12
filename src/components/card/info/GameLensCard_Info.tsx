@@ -12,7 +12,7 @@ const GameLensCard_Info: React.FC<Props> = ({ cardInfo }) => {
       </div>
 
       <div className={"game_card_info_mid"}>
-        <label>{cardInfo.description}</label>
+        <label>{cardInfo.advice}</label>
       </div>
 
       <div className={"game_card_info_bottom"}></div>

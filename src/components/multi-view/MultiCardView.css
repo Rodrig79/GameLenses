@@ -15,7 +15,30 @@
     font-size: 24px;
     padding-bottom: 10%;
     padding-right: 2%;
-    background-color: darksalmon;
-    
+}
 
+.vote_buttons{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    background: black;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    max-height: 64px;
+}
+
+.vote_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    &:active{
+        transform: translateY(4px);
+    }
 }
