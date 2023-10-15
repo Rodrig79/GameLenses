@@ -2,9 +2,10 @@ import { GameLensType } from "../../GameLensType";
 
 interface Props {
   cardInfo: GameLensType;
+  score: number
 }
 
-const GameLensCard_Info: React.FC<Props> = ({ cardInfo }) => {
+const GameLensCard_Info: React.FC<Props> = ({ cardInfo, score = 0 }) => {
   return (
     <div className={"game_card_info"}>
       <div className={"game_card_info_top"}>
@@ -22,7 +23,7 @@ const GameLensCard_Info: React.FC<Props> = ({ cardInfo }) => {
         
       </div>
 
-      <div className={"game_card_info_bottom"}></div>
+      <div className={"game_card_info_bottom"}>Score: {score}</div>
     </div>
   );
 };
