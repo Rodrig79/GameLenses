@@ -21,10 +21,16 @@ const ScoreboardView: React.FC<Props> = ({}) => {
     dispatch(setScoreboard(newScoreboard));
   };
 
+
   // Convert scoreboard object to an array and sort by score
   const sortedKeys = Object.keys(scoreboard).sort(
-    (a, b) => scoreboard[b].score - scoreboard[a].score
+    (a, b) => {
+      return(
+    scoreboard[b].score - scoreboard[a].score)
+  }
+    
   );
+
 
   // Calculate the number of players for each rank
   const cardArrayLength = sortedKeys.length;
@@ -35,9 +41,8 @@ const ScoreboardView: React.FC<Props> = ({}) => {
   return (
     <div className={"scoreboard_view"}>
       {sortedKeys.map((key, index) => {
-        type RankType = "bronze" | "silver" | "gold" | "diamond";
         let rank: RankType = "bronze";
-
+        let rankNum = index + 1
         // Assign ranks based on index
         if (index < diamondCutoff) {
           rank = "diamond";
@@ -49,11 +54,10 @@ const ScoreboardView: React.FC<Props> = ({}) => {
 
         return (
           <div key={key} className="scoreboard_div">
-              <label className={`scoreboard_score_trophy_${rank}`}>
-              🏆
-            </label>
-            <label className={`scoreboard_score_${rank}`}>
-              {scoreboard[key].score}
+            <label className={`scoreboard_score_trophy_${rank}`}>🏆</label>
+            <label className={`scoreboard_score_${rank}`}>#{rankNum}</label>
+            <label className={`scoreboard_score_label`}>
+              [{Math.ceil(scoreboard[key].score)} pts]
             </label>
             <label className="scoreboard_title">{lensArray[key].title}</label>
           </div>

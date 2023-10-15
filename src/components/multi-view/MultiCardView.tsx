@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import GameLensCard from "../card/GameLensCard";
 import "./MultiCardView.scss";
 import VoteButtons from "./vote-buttons/VoteButtons";
+import MultiCard from "./card/MultiCard";
 
 interface Props {}
 
@@ -32,11 +32,11 @@ const MultiCardView: React.FC<Props> = ({}) => {
 
   return (
     <div className={"multi_view"}>
-      <GameLensCard index={topCardIndex}  bgColor="blue"/>
+      <MultiCard index={topCardIndex}  bgColor="blue"/>
       <VoteButtons topIndex = {topCardIndex} bottomIndex = {bottomCardIndex} refreshCards={()=>{
         refreshCards()
       }}/>
-      <GameLensCard index={bottomCardIndex} bgColor="red"/>
+      <MultiCard index={bottomCardIndex} bgColor="red"/>
     </div>
   );
 };

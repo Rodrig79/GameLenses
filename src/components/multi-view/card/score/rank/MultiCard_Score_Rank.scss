@@ -1,0 +1,103 @@
+.multi_card_score_rank {
+  display: flex;
+  font-size: medium;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  &_left {
+    display: flex;
+    flex: 1;
+    font-size: medium;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &_right {
+    display: flex;
+    flex: 2;
+    font-size: medium;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.trophy_area{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.trophy_icon {
+  font-size: 12px;
+  margin-right: 2px;
+
+  &_bronze {
+    @extend .trophy_icon;
+    filter: hue-rotate(320deg) brightness(1.1) saturate(0.9);
+    color: #ffae70;
+  }
+
+  &_silver {
+    @extend .trophy_icon;
+    filter: hue-rotate(150deg) brightness(1.5) saturate(0.2);
+    color: #c0c0c0;
+  }
+
+  &_gold {
+    @extend .trophy_icon;
+    filter: hue-rotate(350deg) brightness(1.8) saturate(0.7);
+    color: #ffd700;
+  }
+
+  &_diamond {
+    @extend .trophy_icon;
+    filter: hue-rotate(150deg) brightness(1.9);
+    color: #00eeff;
+
+    animation: rainbow 0.6s 0s infinite alternate linear;
+
+    @keyframes rainbow {
+      0% {
+        color: #00eeff;
+      }
+      20% {
+        color: #93ff87;
+      }
+
+      40% {
+        color: #d7fffe;
+      }
+
+      60% {
+        color: #ff94ef;
+      }
+
+      80% {
+        color: #00eeff;
+      }
+
+      100% {
+        color: #00eeff;
+      }
+    }
+  }
+}
+
+.trophy_number {
+  color: white;
+  font-size: large;
+
+& label:nth-child(1){
+  font-size: small;
+  margin-right: 2px;
+}
+}

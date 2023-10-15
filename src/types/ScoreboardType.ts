@@ -1,6 +1,6 @@
 export type ScoreboardType = {
     [key: string]: {
-        index: number,
+        imageID: string,
         score: number
     }
 }

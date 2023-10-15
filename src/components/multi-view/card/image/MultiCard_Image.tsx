@@ -1,15 +1,14 @@
 import React from "react";
-import { GameLensType } from "../../GameLensType";
-import "../GameLensCard.scss";
+import { GameLensType } from "../../../GameLensType";
 
 interface Props {
   cardInfo: GameLensType;
 }
 
-const GameLensCard_Image: React.FC<Props> = ({ cardInfo }) => {
+const MultiCard_Image: React.FC<Props> = ({ cardInfo }) => {
 
   return (
-    <div className="game_card_image">
+    <div className="multi_card_image">
       <img
         src={`/lens-art/${cardInfo.imageID}.png`}
         alt={`${cardInfo.imageID}`}
@@ -19,4 +18,4 @@ const GameLensCard_Image: React.FC<Props> = ({ cardInfo }) => {
   );
 };
 
-export default GameLensCard_Image;
+export default MultiCard_Image;

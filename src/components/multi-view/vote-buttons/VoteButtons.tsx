@@ -53,11 +53,11 @@ const VoteButtons: React.FC<Props> = ({
     const newScoreboard: ScoreboardType = {
         ...scoreboard,
         [winnerIndex]: {
-            index: winnerIndex,
+            imageID: CardArray[winnerIndex].imageID,
             score: newWinnerScore,
         },
         [loserIndex]: {  // Ensure loserIndex is in the scoreboard with at least a score of 12
-            index: loserIndex,
+          imageID: CardArray[loserIndex].imageID,
             score: currentLoserScore
         },
     };
