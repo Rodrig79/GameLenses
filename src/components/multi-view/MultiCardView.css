@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: center;
   min-width: 480px;
-  min-height: 42px;
+  min-height: 54px;
   background: #4c4cff;
   color: white;
   font-size: large;
@@ -56,5 +56,6 @@
 
   &:active {
     transform: translateY(4px);
+    filter: brightness(1.6);
   }
 }
