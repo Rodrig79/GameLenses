@@ -5,13 +5,14 @@ import GameLensCard_Info from "./info/GameLensCard_Info";
 
 interface Props {
   index: number;
+  bgColor?: "red" | "blue";
 }
 
-const GameLensCard: React.FC<Props> = ({ index = 0 }) => {
+const GameLensCard: React.FC<Props> = ({ index = 0, bgColor = "red" }) => {
   const cardInfo = CardArray?.[index];
 
   return (
-    <div className={"game_card"}>
+    <div className={bgColor === "red" ? "game_card" : "game_card_blue"}>
       <div className={"game_card_left"}>
         <GameLensCard_Image cardInfo={cardInfo} />
       </div>

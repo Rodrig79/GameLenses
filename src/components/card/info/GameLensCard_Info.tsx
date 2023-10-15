@@ -12,9 +12,14 @@ const GameLensCard_Info: React.FC<Props> = ({ cardInfo }) => {
       </div>
 
       <div className={"game_card_info_mid"}>
-        <label
+        <div
         className="advice"
+        >
+        <label
+        
         >{cardInfo.advice}</label>
+        </div>
+        
       </div>
 
       <div className={"game_card_info_bottom"}></div>

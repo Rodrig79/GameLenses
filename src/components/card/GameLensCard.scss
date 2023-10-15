@@ -9,8 +9,15 @@
   justify-content: space-evenly;
   padding-right: 4%;
   box-sizing: border-box;
-  background-color: #6969cb;
+  background-color: #f63f3f;
   color: white;
+
+
+  &_blue{
+    @extend .game_card;
+    background-color: #3f6cf3;
+
+  }
 
   &:nth-child(2){
     flex-direction: row-reverse;
@@ -77,7 +84,11 @@
 .advice{
   color: white;
   font-size: large;
-  background: rgba(0, 0, 0, 0.179);
+  background: #0000005d;
   letter-spacing: 2px;
+  padding: 2px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  line-height: 32px;
   
 }

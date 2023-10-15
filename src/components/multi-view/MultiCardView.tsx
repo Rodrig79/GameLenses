@@ -32,11 +32,11 @@ const MultiCardView: React.FC<Props> = ({}) => {
 
   return (
     <div className={"multi_view"}>
-      <GameLensCard index={topCardIndex} />
+      <GameLensCard index={topCardIndex}  bgColor="blue"/>
       <VoteButtons topIndex = {topCardIndex} bottomIndex = {bottomCardIndex} refreshCards={()=>{
         refreshCards()
       }}/>
-      <GameLensCard index={bottomCardIndex} />
+      <GameLensCard index={bottomCardIndex} bgColor="red"/>
     </div>
   );
 };
