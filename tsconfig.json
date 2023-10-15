@@ -7,7 +7,7 @@
         "src/types" // If your .d.ts file is in a different location
       ],
     "compilerOptions": {
-        "strict": true,
+        "strict": false,
         "esModuleInterop": true,
         "lib": [
             "dom",
