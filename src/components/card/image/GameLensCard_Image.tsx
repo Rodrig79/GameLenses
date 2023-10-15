@@ -13,6 +13,7 @@ const GameLensCard_Image: React.FC<Props> = ({ cardInfo }) => {
       <img
         src={`/lens-art/${cardInfo.imageID}.png`}
         alt={`${cardInfo.imageID}`}
+        width={350}
       />
     </div>
   );

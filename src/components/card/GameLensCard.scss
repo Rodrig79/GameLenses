@@ -4,13 +4,17 @@
   height: 100%;
   width: 100%;
   max-width: 100vw;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
   padding-right: 4%;
   box-sizing: border-box;
-  background-color: #070730;
+  background-color: #6969cb;
   color: white;
+
+  &:nth-child(2){
+    flex-direction: row-reverse;
+  }
 
   &_left {
     display: flex;
@@ -39,15 +43,41 @@
         justify-content: center;
         height: 100%;
         width: 100%;
+        max-width: 40%;
         flex-direction: column;
+
+        & img {
+          border-radius: 20px;
+        }
 }
 
 .game_card_info {
         display: flex;
-        flex: 1;
+        flex: 3;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         height: 100%;
         width: 100%;
         flex-direction: column;
+        padding-left: 4%;
+        padding-right: 4%;
+        box-sizing: border-box;
+        padding-top: 10%;
+        padding-bottom: 10%;
+}
+
+.title{
+  color: white;
+  font-size: x-large;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  
+}
+
+.advice{
+  color: white;
+  font-size: large;
+  background: rgba(0, 0, 0, 0.179);
+  letter-spacing: 2px;
+  
 }

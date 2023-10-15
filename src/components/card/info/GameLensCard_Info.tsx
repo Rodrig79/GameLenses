@@ -8,11 +8,13 @@ const GameLensCard_Info: React.FC<Props> = ({ cardInfo }) => {
   return (
     <div className={"game_card_info"}>
       <div className={"game_card_info_top"}>
-        <label>{cardInfo.title}</label>
+        <label className={"title"}>{cardInfo.title}</label>
       </div>
 
       <div className={"game_card_info_mid"}>
-        <label>{cardInfo.advice}</label>
+        <label
+        className="advice"
+        >{cardInfo.advice}</label>
       </div>
 
       <div className={"game_card_info_bottom"}></div>
