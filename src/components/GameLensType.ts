@@ -10,4 +10,6 @@ export type GameLensType = {
   imageID: string;
   artist: string;
   advice: string;
+  adviceLong: string;
+  gptScore: number;
 };
