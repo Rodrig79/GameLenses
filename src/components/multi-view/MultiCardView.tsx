@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import GameLensCard from "../card/GameLensCard";
-import "./MultiCardView.css";
+import "./MultiCardView.scss";
 import VoteButtons from "./vote-buttons/VoteButtons";
 
 interface Props {}

@@ -1,0 +1,38 @@
+.app_header {
+  display: flex;
+  flex: 1;
+  width: 100vw;
+  min-height: 54px;
+  max-height: 54px;
+  background: rgb(18, 23, 57);
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 10;
+  color: white;
+  letter-spacing: 1px;
+  font-size: medium;
+}
+
+
+.app_header_button{
+    display: flex;
+    height: 48px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    background: #415898;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: medium;
+    letter-spacing: 1px;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+
+    &:active{
+        transform: translateY(4px);
+    }
+}

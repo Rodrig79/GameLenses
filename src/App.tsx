@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Provider } from "react-redux";
 import store from "./redux-slices/store";
 import ScoreboardView from "./components/scoreboard-view/ScoreboardView";
+import AppHeader from "./components/app-header/AppHeader";
 
 export default function App() {
   
@@ -16,30 +17,7 @@ export default function App() {
     <Provider store={store}>
 
     <div className="App">
-      <div className="top_bar">
-        <button
-          onClick={() => {
-            setViewMode("multi");
-          }}
-        >
-          Multi-View
-        </button>
-
-        <button
-          onClick={() => {
-            setViewMode("single");
-          }}
-        >
-          Single-View
-        </button>
-        <button
-          onClick={() => {
-            setViewMode("score");
-          }}
-        >
-          Scoreboard
-        </button>
-      </div>
+     <AppHeader setViewMode={setViewMode}/>
       {
       viewMode==="multi" ? <MultiCardView /> 
       : 
