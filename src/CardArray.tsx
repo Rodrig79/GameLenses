@@ -274,7 +274,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb015",
     imageID: "15",
     artist: "Chris Daniel",
-    advice: "Ensure your game passes all critical checkpoints, from feeling right and being technically feasible to resonating with playtesters and potential buyers! 🌟(9)",
+    advice: "Fine-tune your game by passing it through eight essential filters: design quality, audience appeal, uniqueness, marketability, technical feasibility, social impact, playtester feedback, and overall feel! 🌟(9)",
   },
   {
     name: "16",

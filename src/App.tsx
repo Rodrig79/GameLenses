@@ -4,25 +4,47 @@ import MultiCardView from "./components/multi-view/MultiCardView";
 import { useState } from "react";
 import { Provider } from "react-redux";
 import store from "./redux-slices/store";
+import ScoreboardView from "./components/scoreboard-view/ScoreboardView";
 
 export default function App() {
-  const [multiViewON, setMultiViewON] = useState(true);
+  
+  type ViewModeType = ("multi" | "single" | "score")
+
+  const [viewMode, setViewMode] = useState<ViewModeType>("multi");
 
   return (
     <Provider store={store}>
 
     <div className="App">
       <div className="top_bar">
-        <label>{multiViewON ? "Multi-View" : "Single-View"}</label>
         <button
           onClick={() => {
-            setMultiViewON(!multiViewON);
+            setViewMode("multi");
           }}
         >
-          {multiViewON ? "Switch to Single-View" : "Switch to Multi-View"}
+          Multi-View
+        </button>
+
+        <button
+          onClick={() => {
+            setViewMode("single");
+          }}
+        >
+          Single-View
+        </button>
+        <button
+          onClick={() => {
+            setViewMode("score");
+          }}
+        >
+          Scoreboard
         </button>
       </div>
-      {multiViewON ? <MultiCardView /> : <SingleCardView />}
+      {
+      viewMode==="multi" ? <MultiCardView /> 
+      : 
+      viewMode==="single" ? <SingleCardView />: 
+      <ScoreboardView />}
     </div>
     </Provider>
   );

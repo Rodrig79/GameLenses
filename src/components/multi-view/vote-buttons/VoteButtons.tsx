@@ -30,25 +30,25 @@ const VoteButtons: React.FC<Props> = ({
     var currentLoserScore = 12;
 
     if(scoreboard[winnerIndex]?.score){
-      currentWinnerScore= scoreboard[winnerIndex].score
+      currentWinnerScore = scoreboard[winnerIndex].score
     }
 
     if(scoreboard[loserIndex]?.score){
-      currentLoserScore= scoreboard[loserIndex].score
+      currentLoserScore = scoreboard[loserIndex].score
     }
-
-    // Define a base score increment
-    const baseIncrement = 1;
 
     // Determine the bonus points
     let bonusPoints = 0;
-    if (currentWinnerScore < currentLoserScore) {
-        // Now the bonus is 50% of the difference, ensuring it's at least 0
+    if (currentWinnerScore <= currentLoserScore) {
         bonusPoints = currentLoserScore * 0.5;
+    }
+    
+    if(bonusPoints < 12){
+      bonusPoints = 12;
     }
 
     // Calculate the new winner score
-    const newWinnerScore = currentWinnerScore + baseIncrement + bonusPoints;
+    const newWinnerScore = currentWinnerScore + bonusPoints;
 
     const newScoreboard: ScoreboardType = {
         ...scoreboard,
