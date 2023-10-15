@@ -17,7 +17,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb001",
     imageID: "1",
     artist: "Rachel Dorrett",
-    advice: "aaa",
+    advice: "Craft game experiences that evoke the right emotions, making moments unforgettable for players! 🌟(10)",
   },
   {
     name: "2",
@@ -35,7 +35,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb002",
     imageID: "2",
     artist: "Zachary D. Coe",
-    advice: "aaa",
+    advice: "Design with the player's experience in mind, capturing the essence of what's truly essential for unforgettable gameplay! 🌟(10)",
   },
   {
     name: "3",
@@ -53,7 +53,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb003",
     imageID: "3",
     artist: "Zachary D. Coe",
-    advice: "aaa",
+    advice: "Choose the right venue for your game, ensuring its elements harmonize with the space and enhance gameplay! 🌟(9)",
   },
   {
     name: "4",
@@ -72,7 +72,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb004",
     imageID: "4",
     artist: "Diana Patton",
-    advice: "aaa",
+    advice: "Infuse your game with delightful surprises, from story to visuals, to captivate and astonish players at every turn! 🌟(10)",
   },
   {
     name: "5",
@@ -89,7 +89,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb005",
     imageID: "5",
     artist: "Jon Schulte",
-    advice: "aaa",
+    advice: "Highlight and amplify the fun aspects of your game, ensuring every element entertains and engages players to the fullest! 🌟(9)",
   },
   {
     name: "6",
@@ -107,7 +107,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb006",
     imageID: "6",
     artist: "Emma Backer",
-    advice: "aaa",
+    advice: "Fuel players' curiosity by crafting intriguing challenges and scenarios that spark their innate desire to explore and discover more! 🌟(10)",
   },
   {
     name: "7",
@@ -125,7 +125,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb007",
     imageID: "7",
     artist: "Melanie Lam",
-    advice: "aaa",
+    advice: "Design elements that resonate with players' motivations, making in-game valuables genuinely coveted and meaningful to them! 🌟(9)",
   },
   {
     name: "8",
@@ -143,7 +143,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb008",
     imageID: "8",
     artist: "Cheryl Ceol",
-    advice: "aaa",
+    advice: "Craft engaging challenges, ensuring your game consistently presents fresh and evolving problems that keep players hooked! 🌟(10)",
   },
   {
     name: "9",
@@ -161,7 +161,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb009",
     imageID: "9",
     artist: "Reagan Heller",
-    advice: "aaa",
+    advice: "Balance aesthetics, technology, mechanics, and story for a harmonious and captivating game experience! 🌟(9)",
   },
   {
     name: "10",
@@ -179,7 +179,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb010",
     imageID: "10",
     artist: "Zachary D. Coe",
-    advice: "aaa",
+    advice: "Envision your game as a vibrant hologram; where every facet enriches the player's journey, ensuring the structure and experience dance in perfect harmony! 🌟(8)",
   },
   {
     name: "11",
@@ -196,7 +196,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb011",
     imageID: "11",
     artist: "Diana Patton",
-    advice: "aaa",
+    advice: "Ensure every element of your game reinforces its central theme for a cohesive experience! 🌟(9)",
   },
   {
     name: "12",
@@ -215,7 +215,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb012",
     imageID: "12",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Harness the hidden power of your game by tapping into what feels special and resonates deeply with players! 🌟(8)",
   },
   {
     name: "13",
@@ -232,7 +232,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb013",
     imageID: "13",
     artist: "Sam Yip",
-    advice: "aaa",
+    advice: "Find inspiration everywhere and channel unique life experiences into your game for a touch of authenticity! 🌟(9)",
   },
   {
     name: "14",
@@ -251,7 +251,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb014",
     imageID: "14",
     artist: "Cheryl Ceol",
-    advice: "aaa",
+    advice: "Define the core problem your game addresses and ensure every design choice aligns with solving it effectively and purposefully! 🌟(8)",
   },
   {
     name: "15",
@@ -274,7 +274,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb015",
     imageID: "15",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Ensure your game passes all critical checkpoints, from feeling right and being technically feasible to resonating with playtesters and potential buyers! 🌟(9)",
   },
   {
     name: "16",
@@ -291,7 +291,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb016",
     imageID: "16",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Anticipate potential pitfalls in your game design and proactively address them to ensure greatness! 🌟(8)",
   },
   {
     name: "17",
@@ -308,7 +308,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb017",
     imageID: "17",
     artist: "Camilla Kydland",
-    advice: "aaa",
+    advice: "Ensure your game is not just fun to play but irresistibly engaging to interact with, like a captivating toy! 🌟(9)",
   },
   {
     name: "18",
@@ -326,7 +326,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb018",
     imageID: "18",
     artist: "Rachel Dorrett",
-    advice: "aaa",
+    advice: "Always ensure your passion for the game burns brightly; if it dims, reignite it or consider a new direction! 🌟(10)",
   },
   {
     name: "19",
@@ -346,7 +346,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb019",
     imageID: "19",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Design from the player's perspective, understanding their likes, dislikes, and expectations to create a game they'll truly love! 🌟(9)",
   },
   {
     name: "20",
@@ -363,7 +363,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb020",
     imageID: "20",
     artist: "Jim Rugg",
-    advice: "aaa",
+    advice: "Ensure your game delivers diverse pleasures, and constantly refine and expand those joys to captivate players! 🌟(8)",
   },
   {
     name: "21",
@@ -383,7 +383,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb021",
     imageID: "21",
     artist: "Diana Patton",
-    advice: "aaa",
+    advice: "Ensure your game maintains a smooth flow by aligning clear goals with escalating challenges and minimizing distractions, keeping players engaged and growing! 🌟(9)",
   },
   {
     name: "22",
@@ -402,7 +402,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb022",
     imageID: "22",
     artist: "Chuck Hoover",
-    advice: "aaa",
+    advice: "Design your game to address fundamental human needs, enhancing players' sense of competence, autonomy, and connection, for a deeper, more fulfilling experience! 🌟(10)",
   },
   {
     name: "23",
@@ -422,7 +422,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb023",
     imageID: "23",
     artist: "Dan Lin",
-    advice: "aaa",
+    advice: "Harness and balance the intricate web of players' motivations, both internal and external, to create a game that's irresistibly engaging and fulfilling! 🌟(9)",
   },
   {
     name: "24",
@@ -441,7 +441,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb024",
     imageID: "24",
     artist: "Zachary D. Coe",
-    advice: "aaa",
+    advice: "Infuse your game with the right blend of fresh elements and familiar comforts to keep players intrigued and coming back for more! 🌟(8)",
   },
   {
     name: "25",
@@ -461,7 +461,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb025",
     imageID: "25",
     artist: "Joseph Grubb",
-    advice: "aaa",
+    advice: "Ensure your game evaluates players in a fair and motivating manner, fostering a desire for self-improvement and deeper engagement! 🌟(9)",
   },
   {
     name: "26",
@@ -481,7 +481,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb026",
     imageID: "26",
     artist: "Cheryl Ceol",
-    advice: "aaa",
+    advice: "Design with a clear understanding of your game's underlying space, considering its dimensions, boundaries, and interconnections for optimal player engagement! 🌟(7)",
   },
   {
     name: "27",
@@ -500,7 +500,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb027",
     imageID: "27",
     artist: "Sam Yip",
-    advice: "aaa",
+    advice: "Craft experiences with impeccable timing, ensuring they're neither too short nor too long for maximized player engagement! 🌟(9)",
   },
   {
     name: "28",
@@ -519,7 +519,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb028",
     imageID: "28",
     artist: "Chuck Hoover",
-    advice: "aaa",
+    advice: "Design with clarity by understanding your game's objects, their attributes, and what triggers their state changes! 🌟(8)",
   },
   {
     name: "29",
@@ -538,7 +538,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb029",
     imageID: "29",
     artist: "Lilian Qian",
-    advice: "aaa",
+    advice: "Harness the power of secrets, tweaking who knows what to transform and elevate your game experience! 🌟(7)",
   },
   {
     name: "30",
@@ -558,7 +558,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb030",
     imageID: "30",
     artist: "Reagan Heller",
-    advice: "aaa",
+    advice: "Maximize player verbs and objects, allowing emergent gameplay and diverse paths to success to flourish! 🌟(9)",
   },
   {
     name: "31",
@@ -578,7 +578,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb031",
     imageID: "31",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Empower players with a balanced mix of basic and strategic actions, evolving gameplay based on their desired capabilities! 🌟(10)",
   },
   {
     name: "32",
@@ -600,7 +600,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb032",
     imageID: "32",
     artist: "Zachary D. Coe",
-    advice: "aaa",
+    advice: "Craft clear, rewarding goals for players, balancing short-term achievements with long-term aspirations, and allow space for player-driven objectives! 🌟(9)",
   },
   {
     name: "33",
@@ -620,7 +620,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb033",
     imageID: "33",
     artist: "Joshua Seaver",
-    advice: "aaa",
+    advice: "Dive deep into your game's foundational structure, ensuring rules are clear, aligned with player practices, and strike the right balance between simplicity and complexity! 🌟(9)",
   },
   {
     name: "34",
@@ -643,7 +643,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb034",
     imageID: "34",
     artist: "Emma Backer",
-    advice: "aaa",
+    advice: "Closely examine player skills required in your game, ensuring they are diverse, aligned with the desired experience, and offer room for growth and mastery! 🌟(8)",
   },
   {
     name: "35",
@@ -662,7 +662,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb035",
     imageID: "35",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Optimize your game's events by aligning actual chances with player perceptions, ensuring each action offers intriguing choices with balanced rewards and challenges! 🌟(9)",
   },
   {
     name: "36",
@@ -682,7 +682,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb036",
     imageID: "36",
     artist: "Joshua Seaver",
-    advice: "aaa",
+    advice: "Master the blend of randomness and risk to fuel excitement and challenge, but keep it in harmony with skill for an engaging, fair gameplay! 🌟(9)",
   },
   {
     name: "37",
@@ -701,7 +701,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb037",
     imageID: "37",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Craft a game that feels fair to everyone, whether through symmetry or asymmetry, while keeping it challenging and engaging for all skill levels! 🌟(9)",
   },
   {
     name: "38",
@@ -722,7 +722,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb038",
     imageID: "38",
     artist: "Reagan Heller",
-    advice: "aaa",
+    advice: "Design challenges that start easy but grow, offering a mix of difficulty levels that can engage players of all skills! 🌟(9)",
   },
   {
     name: "39",
@@ -741,7 +741,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb039",
     imageID: "39",
     artist: "Chuck Hoover",
-    advice: "aaa",
+    advice: "Give players choices that matter, avoiding dominant strategies to keep the game fresh and empowering! 🌟(10)",
   },
   {
     name: "40",
@@ -758,7 +758,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb040",
     imageID: "40",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Balance risk and reward to make every choice a thrilling decision for your players! 🌟(9)",
   },
   {
     name: "41",
@@ -777,7 +777,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb041",
     imageID: "41",
     artist: "Nathan Mazur",
-    advice: "aaa",
+    advice: "Mix skill and chance to match the game's tone and keep players both challenged and surprised! 🌟(8)",
   },
   {
     name: "42",
@@ -797,7 +797,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb042",
     imageID: "42",
     artist: "Lisa Brown",
-    advice: "aaa",
+    advice: "Balance brainpower and quick reflexes to create a game that offers variety and choice for every type of player! 🌟(9)",
   },
   {
     name: "43",
@@ -818,7 +818,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb043",
     imageID: "43",
     artist: "Elizabeth Barndollar",
-    advice: "aaa",
+    advice: "Make your game a battlefield where skill shines, and both newbies and experts can’t wait to prove themselves! 🌟(8)",
   },
   {
     name: "44",
@@ -837,7 +837,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb044",
     imageID: "44",
     artist: "Sam Yip",
-    advice: "aaa",
+    advice: "Craft a game where teamwork isn't just an option, it's a thrilling journey that forges new friendships and deepens old ones! 🌟(9)",
   },
   {
     name: "45",
@@ -856,7 +856,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb045",
     imageID: "45",
     artist: "Diana Patton",
-    advice: "aaa",
+    advice: "Design a game where players can choose their own thrill: fierce competition or exciting teamwork, making it a playground for all kinds of gamers! 🌟(10)",
   },
   {
     name: "46",
@@ -877,7 +877,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb046",
     imageID: "46",
     artist: "Elizabeth Barndollar",
-    advice: "aaa",
+    advice: "Ensure your game showers players with exciting, well-timed, and comprehensible rewards that keep them hooked and hungry for more! ⭐(9)",
   },
   {
     name: "47",
@@ -897,7 +897,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb047",
     imageID: "47",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Use punishments wisely in your game to enhance meaning and boost player pride, but always balance them with strong rewards to keep engagement high! ⭐(8)",
   },
   {
     name: "48",
@@ -916,7 +916,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb048",
     imageID: "48",
     artist: "Tom Smith",
-    advice: "aaa",
+    advice: "Craft a game where meaningful complexity emerges from simple systems, ensuring depth without overwhelming players! ⭐(9)",
   },
   {
     name: "49",
@@ -935,7 +935,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb049",
     imageID: "49",
     artist: "Joshua Seaver",
-    advice: "aaa",
+    advice: "Design with elegance by maximizing the purposes of each game element and trimming the unnecessary, aiming for multifunctionality in simplicity! ⭐(8)",
   },
   {
     name: "50",
@@ -953,7 +953,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb050",
     imageID: "50",
     artist: "Kyle Gabler",
-    advice: "aaa",
+    advice: "Embrace quirks and uniqueness in your game, balancing elegance with defining characteristics that ignite player excitement! ⭐(9)",
   },
   {
     name: "51",
@@ -974,7 +974,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb051",
     imageID: "51",
     artist: "Elizabeth Barndollar",
-    advice: "aaa",
+    advice: "Stoke the fires of player imagination by balancing high-quality details with imaginative spaces, making your game a vivid canvas for creativity! ⭐(8)",
   },
   {
     name: "52",
@@ -994,7 +994,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb052",
     imageID: "52",
     artist: "Sam Yip",
-    advice: "aaa",
+    advice: "Infuse depth into your game with a balanced economy, ensuring meaningful choices in earning and spending for engaging gameplay! ⭐(9)",
   },
   {
     name: "53",
@@ -1008,7 +1008,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb053",
     imageID: "53",
     artist: "Sam Yip",
-    advice: "aaa",
+    advice: "Trust your instincts and ensure your game feels just right, mastering the subtle art of balance! ⭐(10)",
   },
   {
     name: "54",
@@ -1026,7 +1026,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb054",
     imageID: "54",
     artist: "Karen Phillips",
-    advice: "aaa",
+    advice: "Ensure your game is inviting and intuitive, guiding players smoothly from the start, sparking curiosity and clarity! ⭐(9)",
   },
   {
     name: "55",
@@ -1044,7 +1044,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb055",
     imageID: "55",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Guide players with clear indicators of their achievements, ensuring they feel a sense of advancement and motivation throughout the journey! ⭐(10)",
   },
   {
     name: "56",
@@ -1062,7 +1062,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb056",
     imageID: "56",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Offer players diverse paths to tackle challenges, ensuring variety and interconnected experiences to enrich their journey! ⭐(9)",
   },
   {
     name: "57",
@@ -1080,7 +1080,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb057",
     imageID: "57",
     artist: "Sam Yip",
-    advice: "aaa",
+    advice: "Design your game with a captivating pinnacle challenge, building layers of interconnected tasks that drive players toward that ultimate goal with enthusiasm! ⭐(8)",
   },
   {
     name: "58",
@@ -1099,7 +1099,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb058",
     imageID: "58",
     artist: "Elizabeth Barndollar",
-    advice: "aaa",
+    advice: "Craft puzzles that seamlessly integrate into your game's narrative and mechanics, making players pause, think, and relish the challenge! ⭐(9)",
   },
   {
     name: "59",
@@ -1118,7 +1118,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb059",
     imageID: "59",
     artist: "Nathan Mazur",
-    advice: "aaa",
+    advice: "Ensure players feel powerful and in control with intuitive interfaces and impactful in-game choices, fostering a deeper connection with the experience! ⭐(10)",
   },
   {
     name: "60",
@@ -1138,7 +1138,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb060",
     imageID: "60",
     artist: "Zachary D. Coe",
-    advice: "aaa",
+    advice: "Design a tactile and immersive interface, breaking from convention, to make players feel truly connected to your game world! ⭐(9)",
   },
   {
     name: "61",
@@ -1158,7 +1158,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb061",
     imageID: "61",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Craft a seamless virtual interface that delivers crucial info without disrupting immersion, enhancing player interaction and game world connectivity! ⭐(8)",
   },
   {
     name: "62",
@@ -1179,7 +1179,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb062",
     imageID: "62",
     artist: "Jesse Schell",
-    advice: "aaa",
+    advice: "Craft an interface that's intuitive and fades away, letting players dive deep into the game's world without distractions! ⭐(9)",
   },
   {
     name: "63",
@@ -1199,7 +1199,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb063",
     imageID: "63",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Ensure players are continuously engaged and guided by providing clear and impactful feedback that aligns with their goals and emotions! ⭐(10)",
   },
   {
     name: "64",
@@ -1217,7 +1217,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb064",
     imageID: "64",
     artist: "Patrick Mittereder",
-    advice: "aaa",
+    advice: "Amplify the fun by ensuring your interface provides immediate, multi-layered feedback that delights players with every action! ⭐(9)",
   },
   {
     name: "65",
@@ -1234,7 +1234,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb065",
     imageID: "65",
     artist: "Astro Leon-Jhong",
-    advice: "aaa",
+    advice: "Harness the essence of instinct by making game elements so intuitive, even animals would grasp them! ⭐(8)",
   },
   {
     name: "66",
@@ -1255,7 +1255,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb066",
     imageID: "66",
     artist: "Elizabeth Barndollar",
-    advice: "aaa",
+    advice: "Map your game's vital data to the right channels and dimensions for intuitive and impactful player experiences! ⭐(9)",
   },
   {
     name: "67",
@@ -1274,7 +1274,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb067",
     imageID: "67",
     artist: "Patrick Collins",
-    advice: "aaa",
+    advice: "Ensure your game's modes empower players without overwhelming, keeping clarity and control front and center! ⭐(8)",
   },
 
   {
@@ -1292,7 +1292,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb068",
     imageID: "68",
     artist: "Kim Kiser",
-    advice: "aaa",
+    advice: "Craft impactful, memorable moments to illuminate your game's journey and captivate players! ⭐(9)",
   },
   {
     name: "69",
@@ -1314,7 +1314,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb069",
     imageID: "69",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Design with a captivating interest curve to hook players, sustain engagement, and conclude with an unforgettable climax! ⭐(10)",
   },
   {
     name: "70",
@@ -1334,7 +1334,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb070",
     imageID: "70",
     artist: "Patrick Mittereder",
-    advice: "aaa",
+    advice: "Leverage the inherently fascinating elements in your game to instantly captivate players and keep them engaged with novel experiences! ⭐(9)",
   },
   {
     name: "71",
@@ -1352,7 +1352,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb071",
     imageID: "71",
     artist: "Kyle Gabler",
-    advice: "aaa",
+    advice: "Infuse every element of your game with beauty, embracing the mysterious allure that captivates players, and find harmony in their composition! ⭐(8)",
   },
   {
     name: "72",
@@ -1373,7 +1373,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb072",
     imageID: "72",
     artist: "Kyle Gabler",
-    advice: "aaa",
+    advice: "Fuel your game with elements players can deeply relate to and dive into, letting their imaginations run wild and bridging their desires with in-game experiences! ⭐(9)",
   },
   {
     name: "73",
@@ -1393,7 +1393,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb073",
     imageID: "73",
     artist: "Jim Rugg",
-    advice: "aaa",
+    advice: "Design your game as a vibrant story engine, spurring player choices, igniting conflicts, and crafting tales they're eager to share! ⭐(10)",
   },
   {
     name: "74",
@@ -1414,7 +1414,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb074",
     imageID: "74",
     artist: "Sam Yip",
-    advice: "aaa",
+    advice: "Craft compelling goals and amplify their allure with challenging obstacles, ensuring the hero's transformative journey is both engaging and unforgettable! ⭐(9)",
   },
   {
     name: "75",
@@ -1432,7 +1432,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb075",
     imageID: "75",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Empower players with a mix of simplicity and transcendence, making their experience effortlessly immersive and exhilaratingly powerful! ⭐(8)",
   },
   {
     name: "76",
@@ -1451,7 +1451,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb076",
     imageID: "76",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Craft your game's narrative around the timeless Hero's Journey, ensuring it captures the essence of epic tales while remaining uniquely captivating! ⭐(9)",
   },
   {
     name: "77",
@@ -1470,7 +1470,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb077",
     imageID: "77",
     artist: "Reagan Heller",
-    advice: "aaa",
+    advice: "Infuse your game with just the right touch of weirdness to captivate players, but ensure it enhances the narrative rather than confusing it! ⭐(8)",
   },
   {
     name: "78",
@@ -1490,7 +1490,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb078",
     imageID: "78",
     artist: "Diana Patton",
-    advice: "aaa",
+    advice: "Ensure your game's story complements its aesthetics, technology, and mechanics, making it both essential and captivating for players! ⭐(9)",
   },
   {
     name: "79",
@@ -1509,7 +1509,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb079",
     imageID: "79",
     artist: "Nathan Mazur",
-    advice: "aaa",
+    advice: "Empower players with a balance of freedom and guidance, ensuring they feel liberated without being overwhelmed! ⭐(10)",
   },
   {
     name: "80",
@@ -1528,7 +1528,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb080",
     imageID: "80",
     artist: "Astro Leon-Jhong",
-    advice: "aaa",
+    advice: "Boost player engagement by letting them assist others and feel the gratitude of those they aid in-game! ⭐(8)",
   },
   {
     name: "81",
@@ -1551,7 +1551,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb081",
     imageID: "81",
     artist: "Cheryl Ceol",
-    advice: "aaa",
+    advice: "Guide players towards your vision without compromising their sense of freedom by smartly using design elements and incentives! ⭐(9)",
   },
   {
     name: "82",
@@ -1568,7 +1568,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb082",
     imageID: "82",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Make your characters double agents, serving both the game's world and your vision, to enhance the player's experience! ⭐(8)",
   },
   {
     name: "83",
@@ -1586,7 +1586,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb083",
     imageID: "83",
     artist: "Ryan Yee",
-    advice: "aaa",
+    advice: "Craft a game world that taps into players' deepest desires, letting them be who they've dreamt of and do the unimaginable! ⭐(9)",
   },
   {
     name: "84",
@@ -1604,7 +1604,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb084",
     imageID: "84",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Craft a captivating game world that stands distinct, offering multiple gateways and endless story possibilities, making it irresistibly better than reality! ⭐(10)",
   },
   {
     name: "85",
@@ -1621,7 +1621,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb085",
     imageID: "85",
     artist: "Cheryl Ceol",
-    advice: "aaa",
+    advice: "Design an iconic avatar that resonates with players, allowing them to see themselves and dive deeply into your game world! ⭐(9)",
   },
   {
     name: "86",
@@ -1642,7 +1642,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb086",
     imageID: "86",
     artist: "Sam Yip",
-    advice: "aaa",
+    advice: "Ensure your characters serve vital roles in your game, and don't hesitate to adapt or introduce new ones for a cohesive and engaging experience! ⭐(8)",
   },
   {
     name: "87",
@@ -1659,7 +1659,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb087",
     imageID: "87",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Infuse every word and action of your character with their defining traits, making them come alive with authenticity! 🌟(9)",
   },
   {
     name: "88",
@@ -1677,7 +1677,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb088",
     imageID: "88",
     artist: "Kwame' Babb",
-    advice: "aaa",
+    advice: "Map your characters on a graph with friendly/hostile and submissive/dominant axes to uncover rich relationship dynamics and fill any gaps for deeper storytelling! 🌟(8)",
   },
   {
     name: "89",
@@ -1695,7 +1695,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb089",
     imageID: "89",
     artist: "Diana Patton",
-    advice: "aaa",
+    advice: "Dive into your character web, detailing each relationship and filling gaps to create a diverse and intricate narrative network! 🌟(9)",
   },
   {
     name: "90",
@@ -1714,7 +1714,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb090",
     imageID: "90",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Amplify character interactions by highlighting their status dynamics, and craft compelling conflicts by letting them vie for position! 🌟(7)",
   },
   {
     name: "91",
@@ -1734,7 +1734,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb091",
     imageID: "91",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Fuel your narrative with captivating character transformations, ensuring they're clear, impactful, and resonate with players' own journeys of change! 🌟(10)",
   },
   {
     name: "92",
@@ -1753,7 +1753,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb092",
     imageID: "92",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Eliminate any in-game contradictions that undermine your game's core purpose, ensuring every element aligns and amplifies your vision! 🌟(8)",
   },
   {
     name: "93",
@@ -1772,7 +1772,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb093",
     imageID: "93",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Infuse your design with a lively, organic touch, ensuring it exudes a unique charm and resonates with the heart, not just the mind! 🌟(9)",
   },
 
   {
@@ -1790,7 +1790,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb094",
     imageID: "94",
     artist: "Ryan Yee",
-    advice: "aaa",
+    advice: "Harness the power of visuals and sounds to craft an intoxicating atmosphere, immersing players deeply into your game world! 🌟(10)",
   },
   {
     name: "95",
@@ -1807,7 +1807,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb095",
     imageID: "95",
     artist: "Josh Hendryx",
-    advice: "aaa",
+    advice: "Design with the spectator in mind, ensuring your game captivates not only the player but also the audience watching! 🌟(7)",
   },
 
   {
@@ -1828,7 +1828,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb096",
     imageID: "96",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Craft a game environment that not only entertains but fosters and strengthens friendships, providing ample opportunities for communication and connection! 🌟(9)",
   },
   {
     name: "97",
@@ -1846,7 +1846,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb097",
     imageID: "97",
     artist: "Nathan Mazur",
-    advice: "aaa",
+    advice: "Empower players by providing avenues for self-expression, fostering a sense of pride, connection, and individuality in your game! 🌟(10)",
   },
   {
     name: "98",
@@ -1866,7 +1866,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb098",
     imageID: "98",
     artist: "Diana Patton",
-    advice: "aaa",
+    advice: "Design your game to nurture a thriving community, ensuring players have reasons to connect, collaborate, and celebrate together! 🌟(8)",
   },
   {
     name: "99",
@@ -1884,7 +1884,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb099",
     imageID: "99",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Guard against griefing by identifying vulnerable systems and closing loopholes, ensuring a positive experience for all players! 🌟(9)",
   },
   {
     name: "100",
@@ -1901,7 +1901,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb100",
     imageID: "100",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Pour genuine love and passion into your game; it's the secret ingredient for success and resonance with players! 🌟(10)",
   },
   {
     name: "101",
@@ -1922,7 +1922,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb101",
     imageID: "101",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Build a cohesive team grounded in trust, clarity, and respect, ensuring seamless collaboration and unified vision for your game project! 🌟(10)",
   },
   {
     name: "102",
@@ -1939,7 +1939,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb102",
     imageID: "102",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Maintain effective documentation, focusing on crucial details and efficient communication, to streamline game development and keep your team aligned! 🌟(8)",
   },
   {
     name: "103",
@@ -1959,7 +1959,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb103",
     imageID: "103",
     artist: "Chris Daniel",
-    advice: "aaa",
+    advice: "Always prioritize playtesting, tailoring each session to gather targeted feedback, ensuring your game evolves and thrives in real-world scenarios! 🌟(10)",
   },
   {
     name: "104",
@@ -1979,7 +1979,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb104",
     imageID: "104",
     artist: "Joseph Grubb",
-    advice: "aaa",
+    advice: "Choose the right technologies to elevate your game's experience, ensuring they're foundational, impactful, and up-to-date with current innovations! 🌟(9)",
   },
   {
     name: "105",
@@ -1997,7 +1997,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb105",
     imageID: "105",
     artist: "Diana Patton",
-    advice: "aaa",
+    advice: "Forecast the trajectory of game technology, visualizing its progression in 2, 4, and 10-year increments to stay ahead of the curve and innovate! 🌟(8)",
   },
   {
     name: "106",
@@ -2016,7 +2016,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb106",
     imageID: "106",
     artist: "Ryan Yee",
-    advice: "aaa",
+    advice: "Aim for the magic in your game design, captivating audiences from mere mention and pushing boundaries to make the gaming world brighter! 🌟(9)",
   },
   {
     name: "107",
@@ -2034,7 +2034,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb107",
     imageID: "107",
     artist: "Kyle Gabler",
-    advice: "aaa",
+    advice: "Understand your client's desires, from their explicit wishes to their deep-seated aspirations, ensuring your game truly resonates and delivers! 🌟(9)",
   },
   {
     name: "108",
@@ -2053,7 +2053,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb108",
     imageID: "108",
     artist: "Nathan Mazur",
-    advice: "aaa",
+    advice: "Craft a compelling pitch that aligns with both your goals and the interests of your audience, ensuring clear communication of your game's unique value! 🌟(10)",
   },
   {
     name: "109",
@@ -2072,7 +2072,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb109",
     imageID: "109",
     artist: "Nick Daniel",
-    advice: "aaa",
+    advice: "Focus on your game's profitability by understanding costs, sales projections, and the break-even point, ensuring sustainability and success in the market! 🌟(10)",
   },
   {
     name: "110",
@@ -2089,7 +2089,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb110",
     imageID: "110",
     artist: "Nathan Mazur",
-    advice: "aaa",
+    advice: "Design with intent, crafting experiences that positively transform players while being mindful of potential negative impacts! 🌟(9)",
   },
   {
     name: "111",
@@ -2103,7 +2103,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb111",
     imageID: "111",
     artist: "Zachary D. Coe",
-    advice: "aaa",
+    advice: "Embrace your role as a game designer with a sense of duty, striving to create experiences that positively impact players! 🌟(9)",
   },
   {
     name: "112",
@@ -2117,7 +2117,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb112",
     imageID: "112",
     artist: "Tom Smith",
-    advice: "aaa",
+    advice: "Prioritize your efforts, ensuring every project truly merits your dedication and aligns with your goals! 🌟(8)",
   },
   {
     name: "113",
@@ -2131,7 +2131,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb113",
     imageID: "113",
     artist: "Todd Swanson",
-    advice: "aaa",
+    advice: "Stay connected to your core purpose, constantly reflecting on the driving force behind your game's creation and direction! 🌟(10)",
   },
   {
     name: "114",
@@ -2149,7 +2149,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb093_5",
     imageID: "93_5",
     artist: "Josh Hendryx",
-    advice: "aaa",
+    advice: "Foster a deep sense of immersion in your game, continuously enhancing elements that strengthen player presence and addressing those that disrupt it! 🌟(10)",
   },
   {
     name: "115",
@@ -2167,7 +2167,7 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb095_5",
     imageID: "95_5",
     artist: "Derek Hetrick",
-    advice: "aaa",
+    advice: "Ensure trustworthiness in your game design by identifying potential cheats, making them noticeable, and continually building player trust! 🌟(9)",
   },
   {
     name: "116",
@@ -2185,6 +2185,6 @@ export const CardArray: GameLensType[] = [
     thumbID: "lens_thumb067_5",
     imageID: "67_5",
     artist: "Derek Hetrick",
-    advice: "aaa",
+    advice: "Use intuitive metaphors in your game interface to guide player understanding without causing confusion! 🌟(8)",
   },
 ];
