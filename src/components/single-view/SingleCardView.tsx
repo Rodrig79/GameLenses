@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import CardBody from "./CardBody";
-import CardFooter from "./CardFooter";
-import CardHeader from "./CardHeader";
 import PageButtons from "../PageButtons";
-import "./SingleCardView.css";
+import "./SingleCardView.scss";
 import { GameLensType } from "../GameLensType";
 import { CardArray } from "../../CardArray";
+import CardQuestions from "./questions/CardQuestions";
+import CardDescription from "./description/CardDescription";
+import CardTitle from "./title/CardTitle";
+import CardImage from "./image/CardImage";
+import CardClipboard from "./clipboard/CardClipboard";
 
 interface Props {}
 
@@ -13,36 +15,19 @@ const SingleCardView: React.FC<Props> = ({}) => {
   const [index, setIndex] = useState(0);
   const [cardInfo, setCardInfo] = useState<GameLensType>(CardArray[0]);
 
-  const [clipboard, setClipboard] = useState("");
+  useEffect(() => {
+    const newCardInfo = CardArray?.[index];
+    setCardInfo(newCardInfo);
 
-  const clipboardPrefix =
-    "Can you summarize this lens in 3 sentences as best as you can. " +
-    "Please condense it and use simplest language as you can while retaining the ideas as much as possible. (No need to introduce the name of lens, just dive straight into how to apply it) "
-    useEffect(() => {
-      const newCardInfo = CardArray?.[index];
-      setCardInfo(newCardInfo);
-      const title = newCardInfo?.cardTitle;
-      const description = newCardInfo?.description;
-      const advice = newCardInfo?.advice;
-
-      var newClipboard =
-        clipboardPrefix +
-        `${index + 1}. ${title}: ` +
-        `${advice} ` +
-        `${description} `;
-
-      newCardInfo?.questionlist.forEach((question) => {
-        newClipboard = newClipboard + ` ${question} `;
-      });
-
-      setClipboard(newClipboard);
-    }, [index]);
+  }, [index]);
 
   return (
-    <div className={"container"}>
-      <CardHeader cardInfo={cardInfo} clipboard={clipboard} />
-      <CardBody cardInfo={cardInfo} />
-      <CardFooter cardInfo={cardInfo} />
+    <div className={"single_card"}>
+      <CardTitle cardInfo={cardInfo}  />
+      <CardImage cardInfo={cardInfo}/>
+      <CardClipboard cardInfo={cardInfo} />
+      <CardDescription cardInfo={cardInfo} />
+      <CardQuestions cardInfo={cardInfo} />
       <PageButtons index={index} setIndex={setIndex} />
     </div>
   );

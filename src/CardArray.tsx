@@ -20,7 +20,7 @@ export const CardArray: GameLensType[] = [
     advice:
       "Craft game experiences that evoke the right emotions, making moments unforgettable for players! ",
     adviceLong: "Design your game to spark the emotions you want players to feel, because they'll remember how the game made them feel more than anything else. Identify the current emotions your game is eliciting and ask why that's happening. Then, work to close the gap between the emotions you intend to evoke and what players are actually feeling.",
-    gptScore: 0,
+    gptScore: 10,
   },
   {
     name: "2",
@@ -61,7 +61,7 @@ export const CardArray: GameLensType[] = [
     artist: "Zachary D. Coe",
     advice:
       "Choose the right venue for your game, ensuring its elements harmonize with the space and enhance gameplay!",
-    adviceLong: "aaa",
+    adviceLong: "Pick the perfect venue that fits your game's style and enhances its play. Think about how the venue's unique features can influence or improve your game's design. Make sure all game elements sync well with the venue, and adjust any that don't.",
     gptScore: 9,
   },
   {
@@ -83,7 +83,7 @@ export const CardArray: GameLensType[] = [
     artist: "Diana Patton",
     advice:
       "Infuse your game with delightful surprises, from story to visuals, to captivate and astonish players at every turn!",
-    adviceLong: "aaa",
+    adviceLong: "Fill your game with unexpected twists in the story, visuals, and gameplay to keep players engaged and amazed. Think about how your game's rules can allow players to surprise both themselves and each other. Make sure each game element, from artwork to technology, contains elements of surprise to enrich the player experience.",
     gptScore: 10,
   },
   {
@@ -103,7 +103,7 @@ export const CardArray: GameLensType[] = [
     artist: "Jon Schulte",
     advice:
       "Highlight and amplify the fun aspects of your game, ensuring every element entertains and engages players to the fullest!",
-    adviceLong: "aaa",
+    adviceLong: "Focus on what makes your game entertaining and work to enhance those elements for maximum player engagement. Identify the less enjoyable aspects and brainstorm ways to make them more fun. Keep asking yourself which parts of the game delight players the most and double down on them.",
     gptScore: 9,
   },
   {
@@ -124,7 +124,7 @@ export const CardArray: GameLensType[] = [
     artist: "Emma Backer",
     advice:
       "Fuel players' curiosity by crafting intriguing challenges and scenarios that spark their innate desire to explore and discover more!",
-    adviceLong: "aaa",
+    adviceLong: "Stoke the player's natural curiosity by designing compelling challenges and mysteries that make them want to dig deeper. Think about what questions your game is raising for the player and make sure those questions matter to them. Encourage even more questioning by crafting game elements that spark further curiosity and interest.",
     gptScore: 10,
   },
   {

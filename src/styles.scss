@@ -42,52 +42,8 @@
 
 }
 
-.header{
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
 
-.clipboard_button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 12px;
-  min-height: 42px;
 
-  &:hover{
-    cursor: pointer;
-  }
-
-  &:active{
-    transform: translateY(6px);
-    background: aqua;
-    color: white;
-  }
-}
-
-.body{
-  display: flex;
-  flex: 2;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-}
-
-.footer{
-  display: flex;
-  flex: 3;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-}
 
 .pageButtons{
   display: flex;

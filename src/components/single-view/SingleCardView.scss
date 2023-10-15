@@ -1,0 +1,88 @@
+.single_card {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
+  color: black;
+  font-size: 24px;
+  
+  box-sizing: border-box;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.single_card_title {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  &_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    min-height: 42px;
+    min-width: 120px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      transform: translateY(6px);
+      background: aqua;
+      color: white;
+    }
+  }
+}
+
+.single_card_image {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+
+}
+
+.single_card_clipboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
+.single_card_description {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+
+.single_card_questions{
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
