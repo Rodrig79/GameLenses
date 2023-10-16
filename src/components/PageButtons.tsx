@@ -8,7 +8,7 @@ interface Props {
 }
 
 const PageButtons: React.FC<Props> = ({ index, setIndex }) => {
-  const [inputValue, setInputValue] = useState(index.toString());
+  const [inputValue, setInputValue] = useState((index + 1).toString());
 
   const pageDown = () => {
     var newIndex = index;

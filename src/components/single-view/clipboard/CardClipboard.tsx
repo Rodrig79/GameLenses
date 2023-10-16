@@ -12,16 +12,16 @@ const CardClipboard: React.FC<Props> = ({ cardInfo }) => {
 
   const clipboardPrefix =
     "Can you summarize this lens in 3 sentences as best as you can. " +
-    "Please condense it and use simplest language as you can while retaining the ideas as much as possible. (No need to introduce the name of lens, just dive straight into how to apply it) ";
+    "Please condense it and use simplest language as you can while retaining the ideas as much as possible. (No need to introduce the name of lens, just dive straight into how to apply it) " 
   useEffect(() => {
-    const newCardInfo = CardArray?.[index];
+    const newCardInfo = CardArray?.[index-1];
     const title = newCardInfo?.cardTitle;
     const description = newCardInfo?.description;
     const advice = newCardInfo?.advice;
 
     var newClipboard =
       clipboardPrefix +
-      `${index + 1}. ${title}: ` +
+      `${index}. ${title}: ` +
       `${advice} ` +
       `${description} `;
 
