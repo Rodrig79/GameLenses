@@ -61,31 +61,36 @@
   &_diamond {
     @extend .trophy_icon;
     filter: hue-rotate(150deg) brightness(1.9);
-    color: #00eeff;
 
-    animation: rainbow 0.6s 0s infinite alternate linear;
+    animation: rainbow_trophy 0.7s 0s infinite alternate linear;
 
-    @keyframes rainbow {
+    @keyframes rainbow_trophy {
       0% {
+        filter: hue-rotate(150deg) brightness(2.9) saturate(0.8);
         color: #00eeff;
       }
       20% {
+        filter: hue-rotate(100deg) brightness(2.5) saturate(0.9);
         color: #93ff87;
       }
 
       40% {
+        filter: hue-rotate(150deg) brightness(3) saturate(0);
         color: #d7fffe;
       }
 
       60% {
+        filter: hue-rotate(270deg) brightness(1.9);
         color: #ff94ef;
       }
 
       80% {
+        filter: hue-rotate(320deg) brightness(2.7) saturate(0.2);
         color: #00eeff;
       }
 
       100% {
+        filter: hue-rotate(150deg) brightness(3.6)  saturate(0.8);
         color: #00eeff;
       }
     }

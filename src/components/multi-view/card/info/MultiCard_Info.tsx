@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { GameLensType } from "../../../GameLensType";
 
 interface Props {
@@ -7,6 +7,12 @@ interface Props {
 
 const MultiCard_Info: React.FC<Props> = ({ cardInfo }) => {
   const [expandAdvice, setExpandAdvice] = useState(false);
+
+  useEffect(()=>{
+    setExpandAdvice(false)
+  }, [cardInfo])
+
+  
 
   return (
     <div className={"multi_card_info"}>
