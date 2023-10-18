@@ -14,8 +14,8 @@ const MultiCard_Score_Rank: React.FC<Props> = ({ cardInfo }) => {
   const scoreboard: ScoreboardType = useAppSelector(selectScoreboard);
 
   let score = 0;
-  if (scoreboard?.[index]?.score) {
-    score = scoreboard[index].score;
+  if (scoreboard?.[index - 1]?.score) {
+    score = scoreboard[index - 1 ].score;
   }
 
   let rankNum = -1; // Initialize rankNum
