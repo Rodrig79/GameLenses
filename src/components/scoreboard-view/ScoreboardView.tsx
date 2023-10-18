@@ -1,7 +1,9 @@
 import { useAppDispatch, useAppSelector } from "../../redux-slices/hooks";
 import {
   selectScoreboard,
+  setCardIndex,
   setScoreboard,
+  setViewMode,
 } from "../../redux-slices/user-data/UserDataSlice";
 import { ScoreboardType } from "../../types/ScoreboardType";
 import { CardArray } from "../../CardArray";
@@ -53,14 +55,19 @@ const ScoreboardView: React.FC<Props> = ({}) => {
         }
 
         return (
-          <div key={key} className="scoreboard_div">
+          <button key={key} className="scoreboard_button"
+          onClick={()=>{
+            dispatch(setCardIndex(parseInt(key)))
+            dispatch(setViewMode("single"))
+          }}
+          >
             <label className={`scoreboard_score_trophy_${rank}`}>🏆</label>
             <label className={`scoreboard_score_${rank}`}>#{rankNum}</label>
             <label className={`scoreboard_score_label`}>
               [{Math.ceil(scoreboard[key].score)} pts]
             </label>
             <label className="scoreboard_title">{lensArray[key].title}</label>
-          </div>
+          </button>
         );
       })}
       <button onClick={resetScoreboard}>Reset Scoreboard</button>

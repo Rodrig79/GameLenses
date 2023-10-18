@@ -1,14 +1,17 @@
 import "../styles.scss";
 import { CardArray } from "../CardArray";
 import { useState } from "react";
+import { useAppDispatch, useAppSelector } from "../redux-slices/hooks";
+import { selectCardIndex, setCardIndex } from "../redux-slices/user-data/UserDataSlice";
 
 interface Props {
-  index: number;
-  setIndex: (arg0: number) => void;
+
 }
 
-const PageButtons: React.FC<Props> = ({ index, setIndex }) => {
+const PageButtons: React.FC<Props> = ({ }) => {
+  const index = useAppSelector(selectCardIndex)
   const [inputValue, setInputValue] = useState((index + 1).toString());
+  const dispatch = useAppDispatch()
 
   const pageDown = () => {
     var newIndex = index;
@@ -16,7 +19,7 @@ const PageButtons: React.FC<Props> = ({ index, setIndex }) => {
       newIndex = index - 1;
     }
     setInputValue((newIndex + 1).toString());
-    setIndex(newIndex);
+    dispatch(setCardIndex(newIndex));
   };
 
   const pageUp = () => {
@@ -28,7 +31,7 @@ const PageButtons: React.FC<Props> = ({ index, setIndex }) => {
       newIndex = CardArray.length - 1;
     }
     setInputValue((newIndex + 1 ).toString());
-    setIndex(newIndex);
+    dispatch(setCardIndex(newIndex));
   };
 
   const handleInputSubmit = (event: React.KeyboardEvent<HTMLInputElement>) => {
@@ -39,7 +42,7 @@ const PageButtons: React.FC<Props> = ({ index, setIndex }) => {
       newValue = 0;
     }
     setInputValue((newValue + 1).toString());
-    setIndex(newValue);
+    dispatch(setCardIndex(newValue));
   };
 
   return (

@@ -18,7 +18,7 @@
     box-sizing: border-box;
   }
 
-  &_div {
+  &_button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,6 +28,23 @@
     padding: 4px 8px;
     margin-bottom: 8px;
     width: 640px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 2px 2px black;
+
+    & label{
+      pointer-events: none;
+    }
+
+    &:hover{
+      cursor: pointer;
+    }
+
+    &:active{
+      transform: translateY(4px);
+      box-shadow: none;
+    }
+
   }
 
   &_title {

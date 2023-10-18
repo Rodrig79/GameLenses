@@ -11,6 +11,7 @@ export interface UserDataState {
   scoreboard: ScoreboardType;
   notebook: NotebookType
   viewMode: ViewModeType
+  cardIndex: number
  
 }
 
@@ -18,7 +19,8 @@ const initialState: UserDataState = {
   userID: null,
   scoreboard: {},
   notebook: {},
-  viewMode: "multi"
+  viewMode: "multi",
+  cardIndex: 1
 
 };
 
@@ -45,6 +47,10 @@ export const userDataSlice = createSlice({
       state.viewMode = action.payload;
     },
 
+    setCardIndex: (state, action: PayloadAction<number>) => {
+      state.cardIndex = action.payload;
+    },
+
   }
 });
 
@@ -52,7 +58,8 @@ export const {
   setUserID,
   setScoreboard,
   setNotebook,
-  setViewMode
+  setViewMode,
+  setCardIndex,
 
 } = userDataSlice.actions;
 
@@ -63,6 +70,7 @@ export const selectUserID = (state: AppState) => state.userData.userID;
 export const selectScoreboard = (state: AppState) => state.userData.scoreboard;
 export const selectNoteboook = (state: AppState) => state.userData.notebook;
 export const selectViewMode = (state: AppState) => state.userData.viewMode;
+export const selectCardIndex = (state: AppState) => state.userData.cardIndex;
 
 
 export default userDataSlice.reducer;
