@@ -1,18 +1,22 @@
+import { useAppDispatch } from '../../redux-slices/hooks';
+import { setViewMode } from '../../redux-slices/user-data/UserDataSlice';
 import { ViewModeType } from '../../types/ViewModeType';
 import './AppHeader.scss';
 
 interface Props{
-    setViewMode: (ViewModeType)=>void
 }
 
-const AppHeader: React.FC<Props> = ({setViewMode}) => {
+const AppHeader: React.FC<Props> = ({}) => {
+
+  const dispatch = useAppDispatch()
 
   return(
     <div className="app_header">
     <button
     className="app_header_button"
       onClick={() => {
-        setViewMode("multi");
+        dispatch(setViewMode("multi"))
+        
       }}
     >
       Multi-View
@@ -21,7 +25,7 @@ const AppHeader: React.FC<Props> = ({setViewMode}) => {
     <button
     className="app_header_button"
       onClick={() => {
-        setViewMode("single");
+        dispatch(setViewMode("single"))
       }}
     >
       Single-View
@@ -29,7 +33,7 @@ const AppHeader: React.FC<Props> = ({setViewMode}) => {
     <button
     className="app_header_button"
       onClick={() => {
-        setViewMode("score");
+        dispatch(setViewMode("score"))
       }}
     >
       Scoreboard

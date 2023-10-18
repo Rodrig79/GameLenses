@@ -4,18 +4,21 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import type { AppState } from "../store";
 import { ScoreboardType } from "../../types/ScoreboardType";
 import { NotebookType } from "../../types/NotebookType";
+import { ViewModeType } from "../../types/ViewModeType";
 
 export interface UserDataState {
   userID: string;
   scoreboard: ScoreboardType;
   notebook: NotebookType
+  viewMode: ViewModeType
  
 }
 
 const initialState: UserDataState = {
   userID: null,
   scoreboard: {},
-  notebook: {}
+  notebook: {},
+  viewMode: "multi"
 
 };
 
@@ -38,13 +41,18 @@ export const userDataSlice = createSlice({
       state.notebook = action.payload;
     },
 
+    setViewMode: (state, action: PayloadAction<ViewModeType>) => {
+      state.viewMode = action.payload;
+    },
+
   }
 });
 
 export const {
   setUserID,
   setScoreboard,
-  setNotebook
+  setNotebook,
+  setViewMode
 
 } = userDataSlice.actions;
 
@@ -54,6 +62,7 @@ export const {
 export const selectUserID = (state: AppState) => state.userData.userID;
 export const selectScoreboard = (state: AppState) => state.userData.scoreboard;
 export const selectNoteboook = (state: AppState) => state.userData.notebook;
+export const selectViewMode = (state: AppState) => state.userData.viewMode;
 
 
 export default userDataSlice.reducer;
