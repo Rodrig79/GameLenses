@@ -77,6 +77,29 @@ box-sizing: border-box;
   max-height: 300px;
   max-width: 800px;
   
+  &_mid{
+    display: flex;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 3px 3px #030e31a1;
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 100px;
+    background: #0000005d;
+    align-items: center;
+    justify-content: center;
+
+
+    &:hover{
+      cursor: pointer;
+    }
+
+    &:active{
+      transform: translateY(4px);
+      box-shadow: none;
+    }
+  }
   
 }
 
@@ -119,12 +142,23 @@ box-sizing: border-box;
 
 .advice {
   color: white;
-  font-size: large;
-  background: #0000005d;
   letter-spacing: 2px;
   padding: 2px;
   border-radius: 6px;
   box-sizing: border-box;
-  line-height: 32px;
+  font-size: large;
+  user-select: none;
+  pointer-events: none;
+
+  &_short{
+    font-size: large;
+    line-height: 32px;
+  }
+
+  &_long{
+    font-size:small;
+    line-height: 6px;
+    letter-spacing: 1px;
+  }
 }
 

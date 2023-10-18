@@ -843,7 +843,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Craft a game that feels fair to everyone, whether through symmetry or asymmetry, while keeping it challenging and engaging for all skill levels!",
-    adviceLong: "aaa",
+    adviceLong: "Look at the game from every player's view to make sure it feels fair for all skill levels. Decide if making the game symmetrical or asymmetrical helps it feel fair and challenging. Think about if the game should focus more on measuring skill or offering a fun challenge for everyone.",
     gptScore: 9,
   },
   {
@@ -867,7 +867,7 @@ export const CardArray: GameLensType[] = [
     artist: "Reagan Heller",
     advice:
       "Design challenges that start easy but grow, offering a mix of difficulty levels that can engage players of all skills!",
-    adviceLong: "aaa",
+    adviceLong: "Start with easy challenges and make them harder as the player gets better. Make sure the game has different levels of difficulty to suit all players. Ask if there's enough variety in the challenges and how they can grow to keep players engaged.",
     gptScore: 9,
   },
   {
@@ -889,7 +889,7 @@ export const CardArray: GameLensType[] = [
     artist: "Chuck Hoover",
     advice:
       "Give players choices that matter, avoiding dominant strategies to keep the game fresh and empowering!",
-    adviceLong: "aaa",
+    adviceLong: "Offer players important choices that make them feel like what they do in the game matters. Avoid making one choice too powerful, so players explore different strategies. Think about the right number of choices to keep the game engaging but not overwhelming.",
     gptScore: 10,
   },
   {
@@ -909,7 +909,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Balance risk and reward to make every choice a thrilling decision for your players!",
-    adviceLong: "aaa",
+    adviceLong: "Make choices in your game exciting by balancing risk and reward. Give players the option to play it safe with low rewards or take big risks for greater gains. Make sure the rewards match the risks so that choices feel meaningful.",
     gptScore: 9,
   },
   {
@@ -931,7 +931,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nathan Mazur",
     advice:
       "Mix skill and chance to match the game's tone and keep players both challenged and surprised!",
-    adviceLong: "aaa",
+    adviceLong: "Mix skill and chance to keep the game interesting and fit its overall tone. Ask yourself whether the game is meant to test skill or embrace randomness to decide the balance. If some parts are too boring, consider adding chance elements; if they feel too random, bring in more skill-based tasks.",
     gptScore: 8,
   },
   {
@@ -954,7 +954,7 @@ export const CardArray: GameLensType[] = [
     artist: "Lisa Brown",
     advice:
       "Balance brainpower and quick reflexes to create a game that offers variety and choice for every type of player!",
-    adviceLong: "aaa",
+    adviceLong: "Combine thinking tasks and action tasks in your game to keep it diverse and fun for all types of players. Decide if your game should have more puzzles for intellectual challenges or more action parts for quick reflexes. Offer choices that let players win either through skillful action or smart strategy, keeping a balance between mental and physical gameplay.",
     gptScore: 9,
   },
   {
@@ -978,7 +978,7 @@ export const CardArray: GameLensType[] = [
     artist: "Elizabeth Barndollar",
     advice:
       "Make your game a battlefield where skill shines, and both newbies and experts can’t wait to prove themselves!",
-    adviceLong: "aaa",
+    adviceLong: "Design your game so it's a fair test of player skills, making it a game people want to win and feel proud of winning. Make sure the game is enjoyable and challenging for both newbies and experts. Experts should generally win over novices, but both should have meaningful ways to compete.",
     gptScore: 8,
   },
   {
@@ -1000,7 +1000,7 @@ export const CardArray: GameLensType[] = [
     artist: "Sam Yip",
     advice:
       "Craft a game where teamwork isn't just an option, it's a thrilling journey that forges new friendships and deepens old ones!",
-    adviceLong: "aaa",
+    adviceLong: "Your summary captures the essence of The Lens of Competition effectively. It emphasizes fairness, challenge, and the importance of making the game enjoyable for players of all skill levels.",
     gptScore: 9,
   },
   {
@@ -1022,7 +1022,7 @@ export const CardArray: GameLensType[] = [
     artist: "Diana Patton",
     advice:
       "Design a game where players can choose their own thrill: fierce competition or exciting teamwork, making it a playground for all kinds of gamers!",
-    adviceLong: "aaa",
+    adviceLong: "Make your game a space where players can either compete fiercely or work together as a team. Give players the choice to engage in either competitive or cooperative play based on their preferences. Assess whether your target audience prefers competition, cooperation, or a mix, and design the game accordingly.",
     gptScore: 10,
   },
   {
@@ -1046,7 +1046,7 @@ export const CardArray: GameLensType[] = [
     artist: "Elizabeth Barndollar",
     advice:
       "Ensure your game showers players with exciting, well-timed, and comprehensible rewards that keep them hooked and hungry for more!",
-    adviceLong: "aaa",
+    adviceLong: "Make sure your game gives out exciting rewards at the right times to keep players interested. Check if players understand and appreciate the rewards, and if the timing and types of rewards can be varied for more excitement. Evaluate how rewards build up over time and whether they are connected in a way that makes sense and keeps players engaged.",
     gptScore: 9,
   },
   {
@@ -1069,7 +1069,7 @@ export const CardArray: GameLensType[] = [
     artist: "Chris Daniel",
     advice:
       "Use punishments wisely in your game to enhance meaning and boost player pride, but always balance them with strong rewards to keep engagement high!",
-    adviceLong: "aaa",
+    adviceLong: "Use punishments in your game carefully to make it more meaningful and give players a sense of pride when they succeed. Make sure the punishments feel fair and aim to balance them with strong rewards to keep players engaged. Consider converting some punishments into rewards for the same or better gameplay effect.",
     gptScore: 8,
   },
   {
@@ -1091,7 +1091,7 @@ export const CardArray: GameLensType[] = [
     artist: "Tom Smith",
     advice:
       "Craft a game where meaningful complexity emerges from simple systems, ensuring depth without overwhelming players!",
-    adviceLong: "aaa",
+    adviceLong: "Create a game with simple systems that lead to deep, meaningful complexity, making sure not to overwhelm players. Balance the innate complexity in your game, and aim for it to evolve into emergent complexity as players interact with it. Evaluate your game to identify any parts that may be too simple and consider how they could become more complex.",
     gptScore: 9,
   },
   {
@@ -1113,7 +1113,7 @@ export const CardArray: GameLensType[] = [
     artist: "Joshua Seaver",
     advice:
       "Design with elegance by maximizing the purposes of each game element and trimming the unnecessary, aiming for multifunctionality in simplicity!",
-    adviceLong: "aaa",
+    adviceLong: "Design your game to be elegant by making each element serve multiple purposes, cutting out what's not needed. Evaluate each game element's functions and aim to combine or remove elements that serve only one or two purposes. For elements that already serve multiple purposes, explore if they can take on even more roles.",
     gptScore: 8,
   },
   {
@@ -1134,7 +1134,7 @@ export const CardArray: GameLensType[] = [
     artist: "Kyle Gabler",
     advice:
       "Embrace quirks and uniqueness in your game, balancing elegance with defining characteristics that ignite player excitement!",
-    adviceLong: "aaa",
+    adviceLong: "Make your game stand out by adding unique and quirky elements that excite players. These elements can be funny or strange features that people talk about. Balance these unique traits with elegance so the game isn't overly complicated but still has character.",
     gptScore: 9,
   },
   {
@@ -1158,7 +1158,7 @@ export const CardArray: GameLensType[] = [
     artist: "Elizabeth Barndollar",
     advice:
       "Stoke the fires of player imagination by balancing high-quality details with imaginative spaces, making your game a vivid canvas for creativity!",
-    adviceLong: "aaa",
+    adviceLong: "Use a mix of high-quality details and imaginative spaces to make your game a canvas for creativity. Decide what details are essential for understanding the game and see if imagination can fill in the rest. Aim for details that can be reused and spark imagination rather than limit it.",
     gptScore: 8,
   },
   {
@@ -1181,7 +1181,7 @@ export const CardArray: GameLensType[] = [
     artist: "Sam Yip",
     advice:
       "Infuse depth into your game with a balanced economy, ensuring meaningful choices in earning and spending for engaging gameplay!",
-    adviceLong: "aaa",
+    adviceLong: "Create a balanced economy in your game to add depth and make choices about earning and spending meaningful. Ask how players can earn and use money, and whether it's too easy or hard to get. Consider if one universal currency works best or if specialized currencies would add value.",
     gptScore: 9,
   },
   {
@@ -1198,7 +1198,7 @@ export const CardArray: GameLensType[] = [
     artist: "Sam Yip",
     advice:
       "Trust your instincts and ensure your game feels just right, mastering the subtle art of balance!",
-    adviceLong: "aaa",
+    adviceLong: `Trust your gut to make sure your game feels balanced, as getting lost in details can distract from the big picture. Balance can come in many forms but always aims for a game that feels 'just right'. Keep asking yourself, "Does my game feel right?" to guide you.`,
     gptScore: 10,
   },
   {
@@ -1219,7 +1219,7 @@ export const CardArray: GameLensType[] = [
     artist: "Karen Phillips",
     advice:
       "Ensure your game is inviting and intuitive, guiding players smoothly from the start, sparking curiosity and clarity!",
-    adviceLong: "aaa",
+    adviceLong: "Make your game easy to start and understand, sparking players' curiosity from the get-go. Players should know their first steps without needing much explanation. If your game resembles something familiar, highlight that; if it's unique, make its behavior clear.",
     gptScore: 9,
   },
   {
@@ -1240,7 +1240,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Guide players with clear indicators of their achievements, ensuring they feel a sense of advancement and motivation throughout the journey!",
-    adviceLong: "aaa",
+    adviceLong: "Show players they're moving forward by giving clear signs of their achievements. Make sure there's enough smaller milestones to keep them engaged. Reveal any hidden progress to make them feel even more motivated.",
     gptScore: 10,
   },
   {
@@ -1261,7 +1261,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Offer players diverse paths to tackle challenges, ensuring variety and interconnected experiences to enrich their journey!",
-    adviceLong: "aaa",
+    adviceLong: "Give players different ways to solve problems, adding variety and avoiding bottlenecks. Make sure these different paths are distinct but can also connect to help in solving each other. This approach keeps the game engaging and enriches the player's experience.",
     gptScore: 9,
   },
   {
@@ -1282,7 +1282,7 @@ export const CardArray: GameLensType[] = [
     artist: "Sam Yip",
     advice:
       "Design your game with a captivating pinnacle challenge, building layers of interconnected tasks that drive players toward that ultimate goal with enthusiasm!",
-    adviceLong: "aaa",
+    adviceLong: "Design your game to have a main, exciting challenge that serves as the ultimate goal. Create smaller, interconnected tasks that get more difficult as players move toward this main challenge. Make sure the final task is interesting and motivates players to reach it.",
     gptScore: 8,
   },
   {
@@ -1303,8 +1303,8 @@ export const CardArray: GameLensType[] = [
     imageID: "58",
     artist: "Elizabeth Barndollar",
     advice:
-      "Craft puzzles that seamlessly integrate into your game's narrative and mechanics, making players pause, think, and relish the challenge! ⭐(9)",
-    adviceLong: "aaa",
+      "Craft puzzles that seamlessly integrate into your game's narrative and mechanics, making players pause, think, and relish the challenge!",
+    adviceLong: "Make puzzles that fit naturally into your game's story and gameplay, making players stop to think and enjoy solving them. Consider the number and types of puzzles you have, and how they contribute to the overall experience. Make sure each puzzle aligns well with the game's other elements for a cohesive feel.",
     gptScore: 9,
   },
   {
@@ -1326,7 +1326,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nathan Mazur",
     advice:
       "Ensure players feel powerful and in control with intuitive interfaces and impactful in-game choices, fostering a deeper connection with the experience!",
-    adviceLong: "aaa",
+    adviceLong: "Make sure players feel in charge by creating easy-to-use controls and giving them impactful choices in the game. Check if the interface meets player expectations and adjust it for a better sense of control. Aim to make players feel strong and influential in the game's outcome to deepen their engagement.",
     gptScore: 10,
   },
   {
@@ -1349,8 +1349,8 @@ export const CardArray: GameLensType[] = [
     artist: "Zachary D. Coe",
     advice:
       "Design a tactile and immersive interface, breaking from convention, to make players feel truly connected to your game world!",
-    adviceLong: "aaa",
-    gptScore: 9,
+    adviceLong: "Make the game's physical interface engaging and unique to connect players to your game world better. Think about what players touch and how that action maps to the game, improving both for a more direct and enjoyable experience. If customizing isn't possible, carefully pick a metaphor for how the inputs relate to the game world to enhance immersion.",
+    gptScore: 8,
   },
   {
     name: "61",
@@ -1372,8 +1372,8 @@ export const CardArray: GameLensType[] = [
     artist: "Chris Daniel",
     advice:
       "Craft a seamless virtual interface that delivers crucial info without disrupting immersion, enhancing player interaction and game world connectivity!",
-    adviceLong: "aaa",
-    gptScore: 8,
+    adviceLong: "Create a virtual interface that gives players the info they need without breaking their focus on the game world. Think about what information is crucial and when it's needed, and deliver it in a way that doesn't disrupt gameplay. Choose the type of virtual interface that best complements the physical interaction players have with the game.",
+    gptScore: 9,
   },
   {
     name: "62",
@@ -1396,7 +1396,7 @@ export const CardArray: GameLensType[] = [
     artist: "Jesse Schell",
     advice:
       "Craft an interface that's intuitive and fades away, letting players dive deep into the game's world without distractions!",
-    adviceLong: "aaa",
+    adviceLong: `Make an interface that's so easy to use it becomes "invisible," allowing players to focus solely on the game. Ask if the interface is intuitive, especially for new players, and whether it can be used easily even in stressful game moments. The goal is for players to feel completely immersed in the game world.`,
     gptScore: 9,
   },
   {
@@ -1419,7 +1419,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Ensure players are continuously engaged and guided by providing clear and impactful feedback that aligns with their goals and emotions!",
-    adviceLong: "aaa",
+    adviceLong: "Give players clear and meaningful feedback to keep them interested and guide them in the game. Ask what players need to know and feel at each moment, and tailor the feedback to match that. The aim is to help players achieve their goals and feel the emotions you want them to experience.",
     gptScore: 10,
   },
   {
@@ -1440,7 +1440,7 @@ export const CardArray: GameLensType[] = [
     artist: "Patrick Mittereder",
     advice:
       "Amplify the fun by ensuring your interface provides immediate, multi-layered feedback that delights players with every action!",
-    adviceLong: "aaa",
+    adviceLong: `Make your game fun by giving players quick, layered feedback for every action they take. Ask if your interface rewards players in multiple ways at the same time. The goal is to create a "juicy" experience that keeps players delighted and engaged.`,
     gptScore: 9,
   },
   {
@@ -1460,7 +1460,7 @@ export const CardArray: GameLensType[] = [
     artist: "Astro Leon-Jhong",
     advice:
       "Harness the essence of instinct by making game elements so intuitive, even animals would grasp them!",
-    adviceLong: "aaa",
+    adviceLong: `Make your game so simple that even an animal could understand how to play. Focus on using intuitive actions and interfaces that tap into basic instincts. Ask yourself which parts of your game could be simplified to be more "primal" and easier to grasp.`,
     gptScore: 8,
   },
   {
@@ -1484,7 +1484,7 @@ export const CardArray: GameLensType[] = [
     artist: "Elizabeth Barndollar",
     advice:
       "Map your game's vital data to the right channels and dimensions for intuitive and impactful player experiences!",
-    adviceLong: "aaa",
+    adviceLong: "Exactly, the essence of this lens is to focus on intuitive, almost instinctive, game elements that even an animal could understand. By simplifying and honing down to these primal instincts, you make your game more accessible and engaging.",
     gptScore: 9,
   },
   {
@@ -1506,7 +1506,7 @@ export const CardArray: GameLensType[] = [
     artist: "Patrick Collins",
     advice:
       "Ensure your game's modes empower players without overwhelming, keeping clarity and control front and center!",
-    adviceLong: "aaa",
+    adviceLong: "Make sure your game has different modes that help, not confuse, the player. Ask if you can combine similar modes or separate overlapping ones. Always let the player know clearly when a mode changes.",
     gptScore: 8,
   },
 
@@ -1527,7 +1527,7 @@ export const CardArray: GameLensType[] = [
     artist: "Kim Kiser",
     advice:
       "Craft impactful, memorable moments to illuminate your game's journey and captivate players!",
-    adviceLong: "aaa",
+    adviceLong: "Focus on creating key moments that stick in players' minds. These moments shape the overall experience. Ask yourself what the big moments are and how to make them even more impactful.",
     gptScore: 9,
   },
   {
@@ -1552,7 +1552,7 @@ export const CardArray: GameLensType[] = [
     artist: "Chris Daniel",
     advice:
       "Design with a captivating interest curve to hook players, sustain engagement, and conclude with an unforgettable climax!",
-    adviceLong: "aaa",
+    adviceLong: `Plan your game to keep players hooked from start to finish by using an "interest curve." Make sure the game starts with a hook, has periods of rising interest with breaks, and ends with a big, memorable moment. Check this curve with playtesters and adjust to make it more engaging.`,
     gptScore: 10,
   },
   {
@@ -1575,7 +1575,7 @@ export const CardArray: GameLensType[] = [
     artist: "Patrick Mittereder",
     advice:
       "Leverage the inherently fascinating elements in your game to instantly captivate players and keep them engaged with novel experiences!",
-    adviceLong: "aaa",
+    adviceLong: "Make your game instantly appealing by tapping into things that are naturally interesting to players. Consider elements that offer new experiences or cater to basic and higher instincts. Also, include moments of dramatic change to keep players hooked and wanting more.",
     gptScore: 9,
   },
   {
@@ -1596,7 +1596,7 @@ export const CardArray: GameLensType[] = [
     artist: "Kyle Gabler",
     advice:
       "Infuse every element of your game with beauty, embracing the mysterious allure that captivates players, and find harmony in their composition!",
-    adviceLong: "aaa",
+    adviceLong: "Make every part of your game beautiful to capture players' attention. Think about how different elements can come together in a harmonious and poetic way. Understand what beauty means in the context of your game to add a unique allure.",
     gptScore: 8,
   },
   {
@@ -1620,8 +1620,8 @@ export const CardArray: GameLensType[] = [
     artist: "Kyle Gabler",
     advice:
       "Fuel your game with elements players can deeply relate to and dive into, letting their imaginations run wild and bridging their desires with in-game experiences!",
-    adviceLong: "aaa",
-    gptScore: 9,
+    adviceLong: "Include elements in your game that players can easily relate to or imagine themselves in. Think about adding settings, characters, or activities that capture players' imaginations and fulfill their real-life desires. Make sure to include activities that are so engaging that players find it hard to stop.",
+    gptScore: 10,
   },
   {
     name: "73",
@@ -1643,7 +1643,7 @@ export const CardArray: GameLensType[] = [
     artist: "Jim Rugg",
     advice:
       "Design your game as a vibrant story engine, spurring player choices, igniting conflicts, and crafting tales they're eager to share!",
-    adviceLong: "aaa",
+    adviceLong: "Make your game a machine that creates exciting stories through player choices and conflicts. Add features that let players personalize the story and make impactful decisions. Aim for stories that are so interesting and engaging that players can't wait to share them with others.",
     gptScore: 10,
   },
   {
@@ -1667,7 +1667,7 @@ export const CardArray: GameLensType[] = [
     artist: "Sam Yip",
     advice:
       "Craft compelling goals and amplify their allure with challenging obstacles, ensuring the hero's transformative journey is both engaging and unforgettable!",
-    adviceLong: "aaa",
+    adviceLong: "Make your game goals worth chasing by adding challenging obstacles that increase in difficulty. The relationship between the main character and the goal should matter, and possibly involve an antagonist to make the journey more engaging. The best stories often have the protagonist transforming to overcome big obstacles, so consider how your character will change.",
     gptScore: 9,
   },
   {
@@ -1688,8 +1688,8 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Empower players with a mix of simplicity and transcendence, making their experience effortlessly immersive and exhilaratingly powerful!",
-    adviceLong: "aaa",
-    gptScore: 8,
+    adviceLong: "Make your game world simpler than real life to help players dive in, but also give them moments of amazing power to keep it exciting. Balance this power so it doesn't remove challenges from the game. Ensure that the mix of simple and powerful elements feels natural and fulfilling, not forced.",
+    gptScore: 9,
   },
   {
     name: "76",
@@ -1710,7 +1710,7 @@ export const CardArray: GameLensType[] = [
     artist: "Chris Daniel",
     advice:
       "Craft your game's narrative around the timeless Hero's Journey, ensuring it captures the essence of epic tales while remaining uniquely captivating!",
-    adviceLong: "aaa",
+    adviceLong: "Structure your game's story to follow the classic Hero's Journey, making sure it includes key elements that make such tales compelling. Ask yourself if adding more traditional elements would enrich your story or make it feel clichéd. The goal is to capture the essence of epic tales while keeping your story unique and engaging.",
     gptScore: 9,
   },
   {
@@ -1732,7 +1732,7 @@ export const CardArray: GameLensType[] = [
     artist: "Reagan Heller",
     advice:
       "Infuse your game with just the right touch of weirdness to captivate players, but ensure it enhances the narrative rather than confusing it!",
-    adviceLong: "aaa",
+    adviceLong: "Add a touch of weirdness to your game to make it more captivating and special, but be careful not to overdo it and confuse players. Identify the weirdest elements in your game and ask whether they enhance or hinder the player's experience. If you have multiple weird elements, consider simplifying or combining them to keep the story engaging without being confusing.",
     gptScore: 8,
   },
   {
@@ -1755,7 +1755,7 @@ export const CardArray: GameLensType[] = [
     artist: "Diana Patton",
     advice:
       "Ensure your game's story complements its aesthetics, technology, and mechanics, making it both essential and captivating for players!",
-    adviceLong: "aaa",
+    adviceLong: "Make sure your game's story works well with its looks, tech, and gameplay to make it more engaging for players. Ask yourself if your story is needed and how it enhances other parts of your game. Think about how you can improve the story and how the other game elements can better support it.",
     gptScore: 9,
   },
   {
@@ -1777,7 +1777,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nathan Mazur",
     advice:
       "Empower players with a balance of freedom and guidance, ensuring they feel liberated without being overwhelmed!",
-    adviceLong: "aaa",
+    adviceLong: "Give players enough freedom to make choices but guide them so they don't feel lost. Ask yourself when players feel free or restricted in the game. Adjust to make sure they're not overwhelmed by too much freedom or feel too constrained.",
     gptScore: 10,
   },
   {
@@ -1799,7 +1799,7 @@ export const CardArray: GameLensType[] = [
     artist: "Astro Leon-Jhong",
     advice:
       "Boost player engagement by letting them assist others and feel the gratitude of those they aid in-game!",
-    adviceLong: "aaa",
+    adviceLong: "Let players help other characters in the game to make them feel good and engaged. Ask who the player is helping and make that connection stronger. Show gratitude from the helped characters to boost player satisfaction.",
     gptScore: 8,
   },
   {
@@ -1825,7 +1825,7 @@ export const CardArray: GameLensType[] = [
     artist: "Cheryl Ceol",
     advice:
       "Guide players towards your vision without compromising their sense of freedom by smartly using design elements and incentives!",
-    adviceLong: "aaa",
+    adviceLong: "Guide players towards what you want them to do by using smart design and goals, without making them feel forced. Consider all elements like constraints, interface, and even sound to lead them. Aim for a balance that keeps the player's sense of freedom intact.",
     gptScore: 9,
   },
   {

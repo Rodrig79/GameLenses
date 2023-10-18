@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { GameLensType } from "../../../GameLensType";
 
 interface Props {
@@ -5,22 +6,28 @@ interface Props {
 }
 
 const MultiCard_Info: React.FC<Props> = ({ cardInfo }) => {
-
-
+  const [expandAdvice, setExpandAdvice] = useState(false);
 
   return (
     <div className={"multi_card_info"}>
       <div className={"multi_card_info_top"}>
-        <label className={"title"}>{cardInfo.index}. {cardInfo.title}</label>
+        <label className={"title"}>
+          {cardInfo.index}. {cardInfo.title}
+        </label>
       </div>
 
-      <div className={"multi_card_info_mid"}>
+      <button
+        className={"multi_card_info_mid"}
+        onClick={() => {
+          setExpandAdvice(!expandAdvice);
+        }}
+      >
         <div className="advice">
-          <label>{cardInfo.advice}</label>
+          <label className={expandAdvice ? "advice_long" : "advice_short"}>
+            {expandAdvice ? cardInfo.adviceLong : cardInfo.advice}
+          </label>
         </div>
-      </div>
-
-    
+      </button>
     </div>
   );
 };
