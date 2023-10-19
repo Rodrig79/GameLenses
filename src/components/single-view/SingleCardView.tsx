@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import PageButtons from "../PageButtons";
 import "./SingleCardView.scss";
 import { GameLensType } from "../GameLensType";
 import { CardArray } from "../../CardArray";
@@ -10,6 +9,7 @@ import CardImage from "./image/CardImage";
 import CardClipboard from "./clipboard/CardClipboard";
 import { useAppSelector } from "../../redux-slices/hooks";
 import { selectCardIndex } from "../../redux-slices/user-data/UserDataSlice";
+import SingleCard_Footer from "./footer/SingleCard_Footer";
 
 interface Props {}
 
@@ -35,7 +35,7 @@ const SingleCardView: React.FC<Props> = ({}) => {
             <CardClipboard cardInfo={cardInfo} />
             <CardDescription cardInfo={cardInfo} />
             <CardQuestions cardInfo={cardInfo} />
-            <PageButtons />
+            <SingleCard_Footer />
           </div>
         </div>
       )}

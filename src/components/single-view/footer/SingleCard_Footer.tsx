@@ -1,14 +1,13 @@
-import "../styles.scss";
-import { CardArray } from "../CardArray";
+import { CardArray } from "../../../CardArray";
 import { useState } from "react";
-import { useAppDispatch, useAppSelector } from "../redux-slices/hooks";
-import { selectCardIndex, setCardIndex } from "../redux-slices/user-data/UserDataSlice";
+import { useAppDispatch, useAppSelector } from "../../../redux-slices/hooks";
+import { selectCardIndex, setCardIndex } from "../../../redux-slices/user-data/UserDataSlice";
 
 interface Props {
 
 }
 
-const PageButtons: React.FC<Props> = ({ }) => {
+const SingleCard_Footer: React.FC<Props> = ({ }) => {
   const index = useAppSelector(selectCardIndex)
   const [inputValue, setInputValue] = useState((index + 1).toString());
   const dispatch = useAppDispatch()
@@ -46,11 +45,11 @@ const PageButtons: React.FC<Props> = ({ }) => {
   };
 
   return (
-    <div className="pageButtons">
-      <button onClick={pageDown} className="button">
-        {"<"}
+    <div className="single_card_footer">
+      <button onClick={pageDown} className="single_card_footer_button">
+        {"⬅️"}
       </button>
-      <input
+      {/* <input
         value={inputValue}
         onChange={(event) => {
           setInputValue(event.target.value);
@@ -61,16 +60,17 @@ const PageButtons: React.FC<Props> = ({ }) => {
           }
         }}
         type="number"
-      />
+      /> */}
+
 
       <label>
-        {"/"} {CardArray.length}
+{index + 1}        {"/"} {CardArray.length}
       </label>
-      <button onClick={pageUp} className="button">
-        {">"}
+      <button onClick={pageUp} className="single_card_footer_button">
+        {`➡️`}
       </button>
     </div>
   );
 };
 
-export default PageButtons;
+export default SingleCard_Footer;

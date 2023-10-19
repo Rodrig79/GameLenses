@@ -25,29 +25,4 @@
   padding: 0;
 }
 
-.pageButtons {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  height: 100%;
-  width: 100%;
-}
 
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 48px;
-  width: 96px;
-  font-size: 36px;
-
-  &:hover {
-    cursor: pointer;
-  }
-
-  &:active {
-    transform: translateY(6px);
-  }
-}
