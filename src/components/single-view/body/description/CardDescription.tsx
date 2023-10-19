@@ -1,4 +1,4 @@
-import { GameLensType } from "../../GameLensType";
+import { GameLensType } from "../../../GameLensType";
 
 interface Props {
   cardInfo: GameLensType;

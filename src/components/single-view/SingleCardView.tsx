@@ -2,13 +2,11 @@ import { useEffect, useState } from "react";
 import "./SingleCardView.scss";
 import { GameLensType } from "../GameLensType";
 import { CardArray } from "../../CardArray";
-import CardQuestions from "./questions/CardQuestions";
-import CardDescription from "./description/CardDescription";
 import CardTitle from "./title/CardTitle";
 import CardImage from "./image/CardImage";
-import CardClipboard from "./clipboard/CardClipboard";
 import { useAppSelector } from "../../redux-slices/hooks";
 import { selectCardIndex } from "../../redux-slices/user-data/UserDataSlice";
+import SingleCard_Body from "./body/SingleCard_Body";
 import SingleCard_Footer from "./footer/SingleCard_Footer";
 
 interface Props {}
@@ -16,6 +14,7 @@ interface Props {}
 const SingleCardView: React.FC<Props> = ({}) => {
   const cardIndex = useAppSelector(selectCardIndex);
   const [cardInfo, setCardInfo] = useState<GameLensType>(CardArray[0]);
+  const [view, setView] = useState<SingleViewType>("advice");
 
   useEffect(() => {
     if (!cardIndex) {
@@ -32,10 +31,8 @@ const SingleCardView: React.FC<Props> = ({}) => {
           <div className={"single_card"}>
             <CardTitle cardInfo={cardInfo} />
             <CardImage cardInfo={cardInfo} />
-            <CardClipboard cardInfo={cardInfo} />
-            <CardDescription cardInfo={cardInfo} />
-            <CardQuestions cardInfo={cardInfo} />
-            <SingleCard_Footer />
+            <SingleCard_Body cardInfo={cardInfo} view={view}/>
+            <SingleCard_Footer view={view} setView={setView}/>
           </div>
         </div>
       )}

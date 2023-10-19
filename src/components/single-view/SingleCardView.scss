@@ -26,7 +26,7 @@
 
   box-sizing: border-box;
 
-  background: #0604353c;
+  background: #06043500;
 
 
   color: white;
@@ -39,6 +39,11 @@
   justify-content: center;
   height: 100%;
   width: 100%;
+  min-width: 90vw;
+
+  & label{
+    min-width: 40vw;
+  }
 
   &_button {
     display: flex;
@@ -62,12 +67,34 @@
 
 .single_card_image {
   display: flex;
-  flex: 2;
+  flex: 1;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
   flex-direction: column;
+  max-height: 30vh;
+}
+
+.single_card_body{
+  display: flex;
+  flex:2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  min-height: 40vh;
+  height: 40vh;
+  max-height: 40vh;
+
+  &_content{
+background: #00008b48;
+padding: 24px 12px;
+border-radius: 8px;
+max-width: 90%;
+
+  }
 }
 
 .single_card_clipboard {
@@ -97,6 +124,8 @@
   width: 100%;
 }
 
+
+
 .single_card_footer {
   display: flex;
   flex: 1;
@@ -112,9 +141,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 42px;
-    width: 80px;
-    font-size: 20px;
+    height: 64px;
+    width: 64px;
+    font-size: 32px;
+    background: #4d91ff;
+    border: none;
+    box-shadow: 2px 2px black;
+    border-radius: 8px;
+
+    &_ON{
+      @extend .single_card_footer_button;
+      filter: brightness(1.2);
+      box-shadow: none;
+
+    }
 
     &:hover {
       cursor: pointer;
@@ -122,6 +162,8 @@
 
     &:active {
       transform: translateY(6px);
+      box-shadow: none;
+      filter: brightness(1.2);
     }
   }
 }

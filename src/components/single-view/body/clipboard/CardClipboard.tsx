@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { GameLensType } from "../../GameLensType";
-import { CardArray } from "../../../CardArray";
+import { GameLensType } from "../../../GameLensType";
+import { CardArray } from "../../../../CardArray";
 
 interface Props {
   cardInfo: GameLensType;

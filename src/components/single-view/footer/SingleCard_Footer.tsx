@@ -1,73 +1,63 @@
-import { CardArray } from "../../../CardArray";
-import { useState } from "react";
-import { useAppDispatch, useAppSelector } from "../../../redux-slices/hooks";
-import { selectCardIndex, setCardIndex } from "../../../redux-slices/user-data/UserDataSlice";
-
 interface Props {
-
+  view: SingleViewType;
+  setView: (view: SingleViewType) => void;
 }
 
-const SingleCard_Footer: React.FC<Props> = ({ }) => {
-  const index = useAppSelector(selectCardIndex)
-  const [inputValue, setInputValue] = useState((index + 1).toString());
-  const dispatch = useAppDispatch()
-
-  const pageDown = () => {
-    var newIndex = index;
-    if (index > 0) {
-      newIndex = index - 1;
-    }
-    setInputValue((newIndex + 1).toString());
-    dispatch(setCardIndex(newIndex));
-  };
-
-  const pageUp = () => {
-    var newIndex = index;
-
-    if (index < CardArray.length - 1) {
-      newIndex = index + 1;
-    } else {
-      newIndex = CardArray.length - 1;
-    }
-    setInputValue((newIndex + 1 ).toString());
-    dispatch(setCardIndex(newIndex));
-  };
-
-  const handleInputSubmit = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    var newValue = parseInt((event.target as HTMLInputElement).value, 10); // Note the `as HTMLInputElement` type assertion
-    if (newValue >= CardArray.length) {
-      newValue = CardArray.length - 1;
-    } else if (newValue < 0) {
-      newValue = 0;
-    }
-    setInputValue((newValue + 1).toString());
-    dispatch(setCardIndex(newValue));
+const SingleCard_Footer: React.FC<Props> = ({ view, setView }) => {
+  const updateView = (view: SingleViewType) => {
+    setView(view);
   };
 
   return (
-    <div className="single_card_footer">
-      <button onClick={pageDown} className="single_card_footer_button">
-        {"⬅️"}
+    <div className={"single_card_footer"}>
+      <button
+        className={
+          view === "advice"
+            ? "single_card_footer_button_ON"
+            : "single_card_footer_button"
+        }
+        onClick={() => {
+          updateView("advice");
+        }}
+      >
+        1️⃣
       </button>
-      {/* <input
-        value={inputValue}
-        onChange={(event) => {
-          setInputValue(event.target.value);
+      <button
+        className={
+          view === "advice-long"
+            ? "single_card_footer_button_ON"
+            : "single_card_footer_button"
+        }
+        onClick={() => {
+          updateView("advice-long");
         }}
-        onKeyPress={(event) => {
-          if (event.key === "Enter") {
-            handleInputSubmit(event);
-          }
+      >
+        2️⃣
+      </button>
+      <button
+        className={
+          view === "questions"
+            ? "single_card_footer_button_ON"
+            : "single_card_footer_button"
+        }
+        onClick={() => {
+          updateView("questions");
         }}
-        type="number"
-      /> */}
+      >
+        ❓
+      </button>
 
-
-      <label>
-{index + 1}        {"/"} {CardArray.length}
-      </label>
-      <button onClick={pageUp} className="single_card_footer_button">
-        {`➡️`}
+      <button
+        className={
+          view === "notes"
+            ? "single_card_footer_button_ON"
+            : "single_card_footer_button"
+        }
+        onClick={() => {
+          updateView("notes");
+        }}
+      >
+        📝
       </button>
     </div>
   );
