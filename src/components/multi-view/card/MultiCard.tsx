@@ -1,8 +1,5 @@
 import "./MultiCard.scss";
 import { CardArray } from "../../../CardArray";
-import { useAppSelector } from "../../../redux-slices/hooks";
-import { selectScoreboard } from "../../../redux-slices/user-data/UserDataSlice";
-import { ScoreboardType } from "../../../types/ScoreboardType";
 import MultiCard_Image from "./image/MultiCard_Image";
 import MultiCard_Info from "./info/MultiCard_Info";
 import MultiCard_Score from "./score/MultiCard_Score";
