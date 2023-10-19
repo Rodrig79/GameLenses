@@ -1689,7 +1689,7 @@ export const CardArray: GameLensType[] = [
     advice:
       "Empower players with a mix of simplicity and transcendence, making their experience effortlessly immersive and exhilaratingly powerful!",
     adviceLong: "Make your game world simpler than real life to help players dive in, but also give them moments of amazing power to keep it exciting. Balance this power so it doesn't remove challenges from the game. Ensure that the mix of simple and powerful elements feels natural and fulfilling, not forced.",
-    gptScore: 9,
+    gptScore: 10,
   },
   {
     name: "76",
@@ -1845,7 +1845,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Make your characters double agents, serving both the game's world and your vision, to enhance the player's experience!",
-    adviceLong: "aaa",
+    adviceLong: "Use game characters as double agents to serve both the game's world and your design goals. Make sure they help provide the experience you want players to have. Do this without breaking their roles in the game world.",
     gptScore: 8,
   },
   {
@@ -1866,7 +1866,7 @@ export const CardArray: GameLensType[] = [
     artist: "Ryan Yee",
     advice:
       "Craft a game world that taps into players' deepest desires, letting them be who they've dreamt of and do the unimaginable!",
-    adviceLong: "aaa",
+    adviceLong: "Make a game world that lets players live out their biggest wishes and dreams. Think about who players want to be and what they want to do in this fantasy setting. Use these ideas to shape your game.",
     gptScore: 9,
   },
   {
@@ -1887,7 +1887,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Craft a captivating game world that stands distinct, offering multiple gateways and endless story possibilities, making it irresistibly better than reality!",
-    adviceLong: "aaa",
+    adviceLong: "Create a game world that's more exciting than real life, with various ways to enter and explore it. Think about how different entry points can support each other and offer unique experiences. Make sure your world can host many different stories, not just one.",
     gptScore: 10,
   },
   {
@@ -1907,7 +1907,7 @@ export const CardArray: GameLensType[] = [
     artist: "Cheryl Ceol",
     advice:
       "Design an iconic avatar that resonates with players, allowing them to see themselves and dive deeply into your game world!",
-    adviceLong: "aaa",
+    adviceLong: "Make an avatar that players will love and see themselves in, serving as their gateway into the game world. The avatar should be an ideal form that appeals to your target audience. Make sure it has features that let players easily project themselves into the character.",
     gptScore: 9,
   },
   {
@@ -1931,7 +1931,7 @@ export const CardArray: GameLensType[] = [
     artist: "Sam Yip",
     advice:
       "Ensure your characters serve vital roles in your game, and don't hesitate to adapt or introduce new ones for a cohesive and engaging experience!",
-    adviceLong: "aaa",
+    adviceLong: "Make sure each character in your game has a clear and important role to play. Think about what roles are needed and how existing characters fit into those roles. Don't be afraid to change or add characters to better meet these needs.",
     gptScore: 8,
   },
   {
@@ -1951,7 +1951,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Infuse every word and action of your character with their defining traits, making them come alive with authenticity!",
-    adviceLong: "aaa",
+    adviceLong: "Make characters feel real by giving them specific traits that show up in what they say and do. Think about what traits define each character. Make sure these traits are obvious in the character's actions, words, and looks.",
     gptScore: 9,
   },
   {
@@ -1972,7 +1972,7 @@ export const CardArray: GameLensType[] = [
     artist: "Kwame' Babb",
     advice:
       "Map your characters on a graph with friendly/hostile and submissive/dominant axes to uncover rich relationship dynamics and fill any gaps for deeper storytelling!",
-    adviceLong: "aaa",
+    adviceLong: "Use a graph with friendly/hostile and submissive/dominant axes to map out your characters' relationships. Place one character in the center and plot others around it to see how they relate. Look for gaps or extremes on the graph to find opportunities for richer storytelling and more complex relationships.",
     gptScore: 8,
   },
   {
@@ -1993,7 +1993,7 @@ export const CardArray: GameLensType[] = [
     artist: "Diana Patton",
     advice:
       "Dive into your character web, detailing each relationship and filling gaps to create a diverse and intricate narrative network!",
-    adviceLong: "aaa",
+    adviceLong: "Make a list of all characters and detail how each feels about the others to create a web of relationships. Identify any missing or unaccounted-for connections and consider how to include them. Check for too many similar relationships and think about how to make them more diverse for a richer story.",
     gptScore: 9,
   },
   {
@@ -2015,7 +2015,7 @@ export const CardArray: GameLensType[] = [
     artist: "Chris Daniel",
     advice:
       "Amplify character interactions by highlighting their status dynamics, and craft compelling conflicts by letting them vie for position!",
-    adviceLong: "aaa",
+    adviceLong: "Think about the status levels of each character in your game and how they behave based on it. Use these status dynamics to create interesting conflicts between characters. Give players opportunities to express or change their status in the game.",
     gptScore: 7,
   },
   {
@@ -2038,7 +2038,7 @@ export const CardArray: GameLensType[] = [
     artist: "Chris Daniel",
     advice:
       "Fuel your narrative with captivating character transformations, ensuring they're clear, impactful, and resonate with players' own journeys of change!",
-    adviceLong: "aaa",
+    adviceLong: "Think about how each character in your game changes over time. Make sure these changes are clear and interesting to the player. Ask yourself if the transformations are believable, impactful, and reflect the kind of changes players might experience in their own lives.",
     gptScore: 10,
   },
   {
@@ -2060,7 +2060,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Eliminate any in-game contradictions that undermine your game's core purpose, ensuring every element aligns and amplifies your vision!",
-    adviceLong: "aaa",
+    adviceLong: "Identify the main purpose of your game and its subsystems. Check if any elements in your game contradict these purposes. If you find contradictions, change them so that everything aligns with your core vision.",
     gptScore: 8,
   },
   {
@@ -2082,7 +2082,7 @@ export const CardArray: GameLensType[] = [
     artist: "Chris Daniel",
     advice:
       "Infuse your design with a lively, organic touch, ensuring it exudes a unique charm and resonates with the heart, not just the mind!",
-    adviceLong: "aaa",
+    adviceLong: `Add a special, lifelike quality to your game design that connects emotionally with players. Evaluate if any parts of your design feel "dead" and think about how to make them more "alive." Incorporate Alexander's fifteen qualities to infuse your game with a unique, heartwarming charm.`,
     gptScore: 9,
   },
 
@@ -2103,7 +2103,7 @@ export const CardArray: GameLensType[] = [
     artist: "Ryan Yee",
     advice:
       "Harness the power of visuals and sounds to craft an intoxicating atmosphere, immersing players deeply into your game world!",
-    adviceLong: "aaa",
+    adviceLong: "Use visuals and sounds to create a strong atmosphere that pulls players into your game. Think about how the game feels without using words, focusing on its mood and vibe. Use art and sound to make this atmosphere even more engaging for the player.",
     gptScore: 10,
   },
   {
@@ -2123,7 +2123,7 @@ export const CardArray: GameLensType[] = [
     artist: "Josh Hendryx",
     advice:
       "Design with the spectator in mind, ensuring your game captivates not only the player but also the audience watching!",
-    adviceLong: "aaa",
+    adviceLong: "Make your game not just fun to play, but also interesting to watch for an audience. Ask yourself if your game is engaging for spectators and why. Then, look for ways to make it even more watchable.",
     gptScore: 7,
   },
 
@@ -2147,7 +2147,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Craft a game environment that not only entertains but fosters and strengthens friendships, providing ample opportunities for communication and connection!",
-    adviceLong: "aaa",
+    adviceLong: "Make your game a place where people can easily make and keep friends. Think about what helps your players break the ice and have meaningful conversations. Give them tools and moments that help friendships grow and last.",
     gptScore: 9,
   },
   {
@@ -2168,7 +2168,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nathan Mazur",
     advice:
       "Empower players by providing avenues for self-expression, fostering a sense of pride, connection, and individuality in your game!",
-    adviceLong: "aaa",
+    adviceLong: "Give players ways to show who they are in your game, making them feel proud and connected. Think about all the different ways they could express themselves, and what you might be missing. Check if players feel proud of their in-game identity.",
     gptScore: 10,
   },
   {
@@ -2191,7 +2191,7 @@ export const CardArray: GameLensType[] = [
     artist: "Diana Patton",
     advice:
       "Design your game to nurture a thriving community, ensuring players have reasons to connect, collaborate, and celebrate together!",
-    adviceLong: "aaa",
+    adviceLong: "Make your game a place where players want to hang out together. Think about what brings them close, like shared goals or events, and why they need each other. Make sure the game has different levels of experience to keep everyone interested.",
     gptScore: 8,
   },
   {
@@ -2212,7 +2212,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Guard against griefing by identifying vulnerable systems and closing loopholes, ensuring a positive experience for all players!",
-    adviceLong: "aaa",
+    adviceLong: "Look for parts of your game where players can ruin the experience for others. Think about how to make these parts less appealing for such behavior. Make sure you're not missing any loopholes that could be exploited.",
     gptScore: 9,
   },
   {
@@ -2232,7 +2232,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Pour genuine love and passion into your game; it's the secret ingredient for success and resonance with players!",
-    adviceLong: "aaa",
+    adviceLong: "Make sure you and your team really love the game you're making. If you don't, think about how to change that. The love you put into the game will make it better and more appealing to players.",
     gptScore: 10,
   },
   {
@@ -2256,7 +2256,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Build a cohesive team grounded in trust, clarity, and respect, ensuring seamless collaboration and unified vision for your game project!",
-    adviceLong: "aaa",
+    adviceLong: "Make sure your team is the right fit for the project and that everyone communicates clearly and objectively. Check if there's a comfortable atmosphere built on trust and respect. Ensure that the team can come together to make unified decisions for the game.",
     gptScore: 10,
   },
   {
@@ -2276,7 +2276,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Maintain effective documentation, focusing on crucial details and efficient communication, to streamline game development and keep your team aligned!",
-    adviceLong: "aaa",
+    adviceLong: "Keep good records that focus on important details and help the team communicate better. Ask yourself what information is crucial to remember and what needs to be shared with the team. This helps make game development smoother and keeps everyone on the same page.",
     gptScore: 8,
   },
   {
@@ -2299,7 +2299,7 @@ export const CardArray: GameLensType[] = [
     artist: "Chris Daniel",
     advice:
       "Always prioritize playtesting, tailoring each session to gather targeted feedback, ensuring your game evolves and thrives in real-world scenarios!",
-    adviceLong: "aaa",
+    adviceLong: "Always test your game with real players to get useful feedback. Think about why you're testing, who should play, where to do it, and what information you want to gather. This helps your game get better and work well in the real world.",
     gptScore: 10,
   },
   {
@@ -2322,7 +2322,7 @@ export const CardArray: GameLensType[] = [
     artist: "Joseph Grubb",
     advice:
       "Choose the right technologies to elevate your game's experience, ensuring they're foundational, impactful, and up-to-date with current innovations!",
-    adviceLong: "aaa",
+    adviceLong: "Pick the best technology to make your game better, making sure it's current and really important for your game's experience. Ask yourself if the tech is core to the game or just extra flair. Consider if there's new or disruptive tech that could work even better.",
     gptScore: 9,
   },
   {
@@ -2343,7 +2343,7 @@ export const CardArray: GameLensType[] = [
     artist: "Diana Patton",
     advice:
       "Forecast the trajectory of game technology, visualizing its progression in 2, 4, and 10-year increments to stay ahead of the curve and innovate!",
-    adviceLong: "aaa",
+    adviceLong: "Think about where game technology will be in 2, 4, and 10 years to stay ahead and bring new things to your game. Ask yourself specific questions about how and why technology will change in these time frames. Use these forecasts to guide your current and future game development.",
     gptScore: 8,
   },
   {
@@ -2365,7 +2365,7 @@ export const CardArray: GameLensType[] = [
     artist: "Ryan Yee",
     advice:
       "Aim for the magic in your game design, captivating audiences from mere mention and pushing boundaries to make the gaming world brighter!",
-    adviceLong: "aaa",
+    adviceLong: "Aim to create a game that feels magical and gets people excited just by hearing about it. Ask yourself if your game is pushing the boundaries of what's possible and making a meaningful impact. Consider if your game is making the world a better place.",
     gptScore: 9,
   },
   {
@@ -2386,7 +2386,7 @@ export const CardArray: GameLensType[] = [
     artist: "Kyle Gabler",
     advice:
       "Understand your client's desires, from their explicit wishes to their deep-seated aspirations, ensuring your game truly resonates and delivers!",
-    adviceLong: "aaa",
+    adviceLong: "Know what your client wants on different levels: what they say they want, what they think they want, and what they truly desire deep down. Make your game to meet these needs. This will make sure your game really connects with your client.",
     gptScore: 9,
   },
   {
@@ -2408,7 +2408,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nathan Mazur",
     advice:
       "Craft a compelling pitch that aligns with both your goals and the interests of your audience, ensuring clear communication of your game's unique value!",
-    adviceLong: "aaa",
+    adviceLong: "Make a strong pitch that shows why your game is special and matches what your audience wants. Know why you're pitching, what success looks like, and what the audience needs to know. This will help you clearly tell people why they should be interested in your game.",
     gptScore: 10,
   },
   {
@@ -2430,7 +2430,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nick Daniel",
     advice:
       "Focus on your game's profitability by understanding costs, sales projections, and the break-even point, ensuring sustainability and success in the market!",
-    adviceLong: "aaa",
+    adviceLong: "Pay attention to how your game will make money by looking at costs, sales, and when you'll break even. Know where the money goes in your game's business model and why. Figure out how many units need to sell for the game to be profitable.",
     gptScore: 10,
   },
   {
@@ -2450,7 +2450,7 @@ export const CardArray: GameLensType[] = [
     artist: "Nathan Mazur",
     advice:
       "Design with intent, crafting experiences that positively transform players while being mindful of potential negative impacts!",
-    adviceLong: "aaa",
+    adviceLong: "Make a game that aims to improve players' lives while also being careful not to harm them. Consider both the good and bad ways your game can change someone. Always strive for positive impact.",
     gptScore: 9,
   },
   {
@@ -2467,7 +2467,7 @@ export const CardArray: GameLensType[] = [
     artist: "Zachary D. Coe",
     advice:
       "Embrace your role as a game designer with a sense of duty, striving to create experiences that positively impact players!",
-    adviceLong: "aaa",
+    adviceLong: "Take your job as a game designer seriously and aim to make a positive difference in players' lives. Always ask if your game is helping people. Focus on how your game can do good.",
     gptScore: 9,
   },
   {
@@ -2484,7 +2484,7 @@ export const CardArray: GameLensType[] = [
     artist: "Tom Smith",
     advice:
       "Prioritize your efforts, ensuring every project truly merits your dedication and aligns with your goals!",
-    adviceLong: "aaa",
+    adviceLong: "Make sure the game you're working on is worth your time and lines up with your goals. Focus only on important projects that deserve your effort. Always ask yourself if this game is worth the time you're putting into it.",
     gptScore: 8,
   },
   {
@@ -2501,7 +2501,7 @@ export const CardArray: GameLensType[] = [
     artist: "Todd Swanson",
     advice:
       "Stay connected to your core purpose, constantly reflecting on the driving force behind your game's creation and direction!",
-    adviceLong: "aaa",
+    adviceLong: `Keep in mind why you're making your game in the first place. Always think about your main goal for creating it. Ask yourself, "Why am I doing this?" to make sure you're on the right track.`,
     gptScore: 10,
   },
   {
@@ -2522,7 +2522,7 @@ export const CardArray: GameLensType[] = [
     artist: "Josh Hendryx",
     advice:
       "Foster a deep sense of immersion in your game, continuously enhancing elements that strengthen player presence and addressing those that disrupt it!",
-    adviceLong: "aaa",
+    adviceLong: `Focus on making your game as immersive as possible. Ask yourself if players feel really "there" in the game and what elements are helping or hurting that feeling. Work on strengthening what builds immersion and fixing what breaks it.`,
     gptScore: 10,
   },
   {
@@ -2543,7 +2543,7 @@ export const CardArray: GameLensType[] = [
     artist: "Derek Hetrick",
     advice:
       "Ensure trustworthiness in your game design by identifying potential cheats, making them noticeable, and continually building player trust!",
-    adviceLong: "aaa",
+    adviceLong: "Make sure your game is fair by spotting ways players could cheat. Ask if these cheats would be noticeable and work on making them so. Keep building trust by showing players the game is fair.",
     gptScore: 9,
   },
   {
@@ -2564,7 +2564,7 @@ export const CardArray: GameLensType[] = [
     artist: "Derek Hetrick",
     advice:
       "Use intuitive metaphors in your game interface to guide player understanding without causing confusion!",
-    adviceLong: "aaa",
+    adviceLong: "Use familiar ideas to make your game's interface easy to understand. Check if the interface is already like something people know and if that's helping or confusing them. Think about whether making it resemble something familiar would make it easier to use.",
     gptScore: 8,
   },
 ];
