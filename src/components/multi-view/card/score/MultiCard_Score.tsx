@@ -13,7 +13,7 @@ const MultiCard_Score: React.FC<Props> = ({ cardInfo}) => {
     <div className="multi_card_score">
       <div className="multi_card_score_hologram">
         <MultiCard_Score_Rank cardInfo={cardInfo}/>
-        <MultiCard_Score_GPT cardInfo={cardInfo} />
+        {/* <MultiCard_Score_GPT cardInfo={cardInfo} /> */}
       </div>
     </div>
   );
