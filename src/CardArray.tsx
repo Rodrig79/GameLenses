@@ -1484,7 +1484,7 @@ export const CardArray: GameLensType[] = [
     artist: "Elizabeth Barndollar",
     advice:
       "Map your game's vital data to the right channels and dimensions for intuitive and impactful player experiences!",
-    adviceLong: "Exactly, the essence of this lens is to focus on intuitive, almost instinctive, game elements that even an animal could understand. By simplifying and honing down to these primal instincts, you make your game more accessible and engaging.",
+    adviceLong: "Think about what information needs to go between the player and the game. Decide which pieces of information are most important and how best to show them. Make sure you're using the right methods and styles to share this information so it's easy for the player to understand.",
     gptScore: 9,
   },
   {
