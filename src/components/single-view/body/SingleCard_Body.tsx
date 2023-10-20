@@ -2,6 +2,7 @@ import { GameLensType } from "../../GameLensType";
 import SingleCard_Advice from "./advice/SingleCard_Advice";
 import SingleCard_Advice_Long from "./advice-long/SingleCard_Advice_Long";
 import CardQuestions from "./questions/CardQuestions";
+import SingleCard_Notes from "./notes/SingleCard_Notes";
 
 interface Props {
   cardInfo: GameLensType;
@@ -16,12 +17,13 @@ const SingleCard_Body: React.FC<Props> = ({ cardInfo, view }) => {
           <SingleCard_Advice cardInfo={cardInfo} />
         ) : view === "advice-long" ? (
           <SingleCard_Advice_Long cardInfo={cardInfo} />
-        ) : (
+        ) : view === "questions" ? (
           <>
             <CardQuestions cardInfo={cardInfo} />
           </>
-        )}
-        
+        ) : view === "notes" ? (
+          <SingleCard_Notes cardInfo={cardInfo}/>
+        ) : null}
       </div>
     </div>
   );
