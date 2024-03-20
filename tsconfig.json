@@ -13,6 +13,9 @@
             "dom",
             "es2015"
         ],
+        "paths": {
+            "react": ["./node_modules/@types/react"]
+          },
         "jsx": "react-jsx"
     }
 }
