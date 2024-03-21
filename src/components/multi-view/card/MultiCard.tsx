@@ -14,14 +14,15 @@ const MultiCard: React.FC<Props> = ({ index = 0, bgColor = "red" }) => {
 
   return (
     <div className={bgColor === "red" ? "multi_card" : "multi_card_blue"}>
-      <div className={"multi_card_left"}>
+      <div className={"multi_card_top"}>
         <MultiCard_Image cardInfo={cardInfo} />
-      </div>
-      <div className={"multi_card_right"}>
-        <MultiCard_Info cardInfo={cardInfo} />
-
         <MultiCard_Score cardInfo={cardInfo}/>
+
       </div>
+      <div className={"multi_card_mid"}>
+        <MultiCard_Info cardInfo={cardInfo} />
+        </div>
+
     </div>
   );
 };
