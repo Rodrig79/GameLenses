@@ -16,6 +16,9 @@
         "paths": {
             "react": ["./node_modules/@types/react"]
           },
-        "jsx": "react-jsx"
-    }
+        "jsx": "react-jsx",
+        "resolveJsonModule": true,
+
+    },
+
 }

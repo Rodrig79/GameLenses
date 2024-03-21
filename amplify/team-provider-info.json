@@ -10,6 +10,11 @@
       "StackName": "amplify-gamelensesaws-dev-222255",
       "StackId": "arn:aws:cloudformation:us-west-1:533266988526:stack/amplify-gamelensesaws-dev-222255/1396a950-e743-11ee-81f7-02de0b4be9b1",
       "AmplifyAppId": "dy1kvdit4vuhp"
+    },
+    "categories": {
+      "auth": {
+        "gamelensesaws396b4d88": {}
+      }
     }
   }
 }
