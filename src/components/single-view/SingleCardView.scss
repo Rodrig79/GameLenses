@@ -60,9 +60,9 @@
     }
 
     &:active {
-      transform: translateY(6px);
-      background: aqua;
+      transform: translateY(2px);
       color: white;
+      box-shadow: none;
     }
   }
 }

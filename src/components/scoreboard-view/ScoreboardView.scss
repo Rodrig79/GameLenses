@@ -176,4 +176,17 @@
   min-height: 36px;
   max-width: 80%;
   max-height: 48px;
+  background: #ffffff37;
+  color: white;
+  border: none;
+  box-shadow: 2px 2px #30394d88;
+
+  &:hover{
+    cursor: pointer;
+  }
+
+  &:active{
+    transform: translateY(2px);
+    box-shadow: none;
+  }
 }
