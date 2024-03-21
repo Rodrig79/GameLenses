@@ -1,6 +1,7 @@
 import { signOut } from "aws-amplify/auth";
-import { useAppDispatch } from "../../redux-slices/hooks";
+import { useAppDispatch, useAppSelector } from "../../redux-slices/hooks";
 import {
+  selectUserInfo,
   setUserInfo,
   setViewMode,
 } from "../../redux-slices/user-data/UserDataSlice";
@@ -12,6 +13,7 @@ interface Props {}
 const AppHeader: React.FC<Props> = ({}) => {
   const dispatch = useAppDispatch();
 
+  const userInfo = useAppSelector(selectUserInfo);
   const handleSignOut = async () => {
     try {
       // Create an iframe and set Google's logout URL
@@ -72,13 +74,27 @@ const AppHeader: React.FC<Props> = ({}) => {
         Scores
       </button>
 
-      <button
-        onClick={() => {
-          handleSignOut();
-        }}
-      >
-        Sign out
-      </button>
+      {userInfo ? (
+        <button
+          className="app_header_button"
+          onClick={() => {
+            handleSignOut();
+          }}
+        >
+          <Icon icon={"noto:door"} className={"app_header_icon"} />
+          Sign out
+        </button>
+      ) : (
+        <button
+          className="app_header_button"
+          onClick={() => {
+            dispatch(setViewMode("sign_in"))
+          }}
+        >
+          <Icon icon={"noto:key"} className={"app_header_icon"} />
+          Sign In
+        </button>
+      )}
     </div>
   );
 };

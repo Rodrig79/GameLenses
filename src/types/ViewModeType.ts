@@ -1,5 +1,7 @@
 export type ViewModeType = (
     "single" |
     "multi" |
-    "score"
+    "score" |
+    "sign_in" |
+    "about"
 )

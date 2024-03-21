@@ -11,6 +11,7 @@ import {
   selectUserInfo,
   setUserInfo,
 } from "../../redux-slices/user-data/UserDataSlice";
+import "./SignInPage.scss";
 
 const SignInPage = () => {
   const dispatch = useAppDispatch();
@@ -54,19 +55,32 @@ const SignInPage = () => {
   };
 
   return (
-    <div>
-      <h1>Hello {userInfo?.username}</h1>
-      <div>{customState}</div>
-      <button
-        onClick={() =>
-          signInWithRedirect({
-            provider: "Google",
-            customState: "shopping-cart",
-          })
-        }
-      >
-        Sign in With Google
-      </button>
+    <div className="login">
+      <div className="login_top">
+        <h1>Game Lenses Toolkit</h1>
+      </div>
+
+      <div className="login_mid">
+        <p>
+          This app is designed to help you determine what game lenses you find
+          most valuable. Lenses are assigned a rank which is updated each time
+          you cast a vote. The more you vote, the more accurate your sorted list
+          will be!{" "}
+        </p>
+      </div>
+
+      <div className="login_bottom">
+        <button
+          onClick={() =>
+            signInWithRedirect({
+              provider: "Google",
+              customState: "shopping-cart",
+            })
+          }
+        >
+          Sign in With Google
+        </button>
+      </div>
     </div>
   );
 };
