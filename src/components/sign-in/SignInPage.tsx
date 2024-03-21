@@ -1,55 +1,72 @@
-import {Amplify} from 'aws-amplify';
-import { signInWithRedirect, signOut, getCurrentUser, AuthUser } from "aws-amplify/auth";
+import {
+  signInWithRedirect,
+  signOut,
+  getCurrentUser,
+  AuthUser,
+} from "aws-amplify/auth";
 import { Hub } from "aws-amplify/utils";
-import { useEffect, useState } from 'react';
-
+import { useEffect, useState } from "react";
+import { useAppDispatch, useAppSelector } from "../../redux-slices/hooks";
+import {
+  selectUserInfo,
+  setUserInfo,
+} from "../../redux-slices/user-data/UserDataSlice";
 
 const SignInPage = () => {
-    const [user, setUser] = useState<AuthUser | null>(null);
-    const [error, setError] = useState<unknown>(null);
-    const [customState, setCustomState] = useState<string | null>("Custom State: None");
-  
+  const dispatch = useAppDispatch();
+  const userInfo = useAppSelector(selectUserInfo);
+  const [error, setError] = useState<unknown>(null);
+  const [customState, setCustomState] = useState<string | null>(
+    "Custom State:"
+  );
 
-    useEffect(() => {
-        const unsubscribe = Hub.listen("auth", ({ payload }) => {
-          switch (payload.event) {
-            case "signInWithRedirect":
-              getUser();
-              break;
-            case "signInWithRedirect_failure":
-              setError("An error has occurred during the OAuth flow.");
-              break;
-            case "customOAuthState":
-              setCustomState(payload.data); // this is the customState provided on signInWithRedirect function
-              break;
-          }
-        });
-    
-        getUser();
-    
-        return unsubscribe;
-      }, []);
-    
-      const getUser = async (): Promise<void> => {
-        try {
-          const currentUser = await getCurrentUser();
-          setUser(currentUser);
-        } catch (error) {
-          console.error(error);
-          console.log("Not signed in");
-        }
-      };
+  useEffect(() => {
+    const unsubscribe = Hub.listen("auth", ({ payload }) => {
+      switch (payload.event) {
+        case "signInWithRedirect":
+          getUser();
+          break;
+        case "signInWithRedirect_failure":
+          setError("An error has occurred during the OAuth flow.");
+          dispatch(setUserInfo(null));
 
+          break;
+        case "customOAuthState":
+          setCustomState(payload.data); // this is the customState provided on signInWithRedirect function
+          break;
+      }
+    });
 
-return(
+    getUser();
+
+    return unsubscribe;
+  }, []);
+
+  const getUser = async (): Promise<void> => {
+    try {
+      const currentUser = await getCurrentUser();
+      dispatch(setUserInfo(currentUser));
+    } catch (error) {
+      dispatch(setUserInfo(null));
+      console.error(error);
+      console.log("Not signed in");
+    }
+  };
+
+  return (
     <div>
-      <button onClick={() => signInWithRedirect({ customState: "Custome State: shopping-cart"})}>Open Hosted UI</button>
-      <button onClick={() => signInWithRedirect({ provider: "Google", customState: "shopping-cart" })}>
-        Open Google
-      </button>
-      <button onClick={() => signOut()}>Sign Out</button>
-      <div>{user?.username}</div>
+      <h1>Hello {userInfo?.username}</h1>
       <div>{customState}</div>
+      <button
+        onClick={() =>
+          signInWithRedirect({
+            provider: "Google",
+            customState: "shopping-cart",
+          })
+        }
+      >
+        Sign in With Google
+      </button>
     </div>
   );
 };

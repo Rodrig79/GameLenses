@@ -5,17 +5,20 @@ import type { AppState } from "../store";
 import { ScoreboardType } from "../../types/ScoreboardType";
 import { NotebookType } from "../../types/NotebookType";
 import { ViewModeType } from "../../types/ViewModeType";
+import { AuthUser } from "aws-amplify/auth";
 
 export interface UserDataState {
+  userInfo: AuthUser
   userID: string;
   scoreboard: ScoreboardType;
   notebook: NotebookType
   viewMode: ViewModeType
-  cardIndex: number
+  cardIndex: number;
  
 }
 
 const initialState: UserDataState = {
+  userInfo: null,
   userID: null,
   scoreboard: {},
   notebook: {},
@@ -30,6 +33,11 @@ export const userDataSlice = createSlice({
   // The `reducers` field lets us define reducers and generate associated actions
   reducers: {
     // Use the PayloadAction type to declare the contents of `action.payload`
+    setUserInfo: (state, action: PayloadAction<AuthUser>) => {
+      state.userInfo = action.payload;
+    },
+
+    
     setUserID: (state, action: PayloadAction<any>) => {
       state.userID = action.payload;
     },
@@ -55,6 +63,7 @@ export const userDataSlice = createSlice({
 });
 
 export const {
+  setUserInfo,
   setUserID,
   setScoreboard,
   setNotebook,
@@ -66,6 +75,7 @@ export const {
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of
 // in the slice file. For example: `useSelector((state: RootState) => state.counter.value)`
+export const selectUserInfo = (state: AppState) => state.userData.userInfo;
 export const selectUserID = (state: AppState) => state.userData.userID;
 export const selectScoreboard = (state: AppState) => state.userData.scoreboard;
 export const selectNoteboook = (state: AppState) => state.userData.notebook;
