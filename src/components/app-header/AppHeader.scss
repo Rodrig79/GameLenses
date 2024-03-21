@@ -17,15 +17,17 @@
 .app_header_button{
     display: flex;
     height: 48px;
-    width: 120px;
+    width: 90px;
     align-items: center;
     justify-content: center;
-    background: #415898;
+    background: #4a4e5c;
     color: white;
     border: none;
     border-radius: 4px;
-    font-size: medium;
+    font-size: small;
     letter-spacing: 1px;
+    padding: 4px 8px;
+    flex-direction: column;
 
     &:hover{
         cursor: pointer;
@@ -35,4 +37,10 @@
     &:active{
         transform: translateY(4px);
     }
+
+    
+}
+
+.app_header_icon{
+    font-size: medium;
 }

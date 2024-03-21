@@ -5,6 +5,7 @@ import {
   setViewMode,
 } from "../../redux-slices/user-data/UserDataSlice";
 import "./AppHeader.scss";
+import { Icon } from "@iconify/react";
 
 interface Props {}
 
@@ -14,26 +15,25 @@ const AppHeader: React.FC<Props> = ({}) => {
   const handleSignOut = async () => {
     try {
       // Create an iframe and set Google's logout URL
-      const iframe = document.createElement('iframe');
-      iframe.style.display = 'none'; // Hide the iframe
-      iframe.src = 'https://accounts.google.com/logout';
+      const iframe = document.createElement("iframe");
+      iframe.style.display = "none"; // Hide the iframe
+      iframe.src = "https://accounts.google.com/logout";
       document.body.appendChild(iframe);
-  
+
       // Wait for the iframe to load Google's logout page
       iframe.onload = async () => {
         // Remove the iframe from the document
         document.body.removeChild(iframe);
-  
+
         // Proceed with your app's logout process
         await signOut();
         dispatch(setUserInfo(null));
-        window.location.href = '/';
+        window.location.href = "/";
       };
     } catch (error) {
-      console.error('Error signing out: ', error);
+      console.error("Error signing out: ", error);
     }
   };
-  
 
   return (
     <div className="app_header">
@@ -43,7 +43,11 @@ const AppHeader: React.FC<Props> = ({}) => {
           dispatch(setViewMode("multi"));
         }}
       >
-        Multi-View
+        <Icon
+          icon={"noto:ballot-box-with-ballot"}
+          className={"app_header_icon"}
+        />
+        Vote
       </button>
 
       <button
@@ -52,7 +56,11 @@ const AppHeader: React.FC<Props> = ({}) => {
           dispatch(setViewMode("single"));
         }}
       >
-        Single-View
+        <Icon
+          icon={"noto:magnifying-glass-tilted-right"}
+          className={"app_header_icon"}
+        />
+        Browse
       </button>
       <button
         className="app_header_button"
@@ -60,12 +68,13 @@ const AppHeader: React.FC<Props> = ({}) => {
           dispatch(setViewMode("score"));
         }}
       >
-        Scoreboard
+        <Icon icon={"noto:trophy"} className={"app_header_icon"} />
+        Scores
       </button>
 
       <button
         onClick={() => {
-         handleSignOut()
+          handleSignOut();
         }}
       >
         Sign out
