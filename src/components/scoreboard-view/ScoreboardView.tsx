@@ -70,7 +70,9 @@ const ScoreboardView: React.FC<Props> = ({}) => {
           </button>
         );
       })}
-      <button onClick={resetScoreboard}>Reset Scoreboard</button>
+      <button 
+      className="reset_button"
+      onClick={resetScoreboard}>Reset Data</button>
     </div>
   );
 };

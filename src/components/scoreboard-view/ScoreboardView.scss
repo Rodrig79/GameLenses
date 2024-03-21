@@ -27,107 +27,105 @@
     color: white;
     padding: 4px 8px;
     margin-bottom: 8px;
-    width: 640px;
+    width: 98%;
+    max-width: 640px;
     border-radius: 6px;
     border: none;
     box-shadow: 2px 2px black;
 
-    & label{
+    & label {
       pointer-events: none;
     }
 
-    &:hover{
+    &:hover {
       cursor: pointer;
     }
 
-    &:active{
+    &:active {
       transform: translateY(4px);
       box-shadow: none;
     }
-
   }
 
   &_title {
     display: flex;
     margin-left: 16px;
+    font-size: medium;
+    letter-spacing: 1px;
   }
-
-  
 }
 
-.scoreboard_score{
-  font-size: medium;
+.scoreboard_score {
+  font-size: small;
   color: white;
 
-  &_bronze{
+  &_bronze {
     color: #ffae70;
   }
 
-  &_silver{
+  &_silver {
     color: #c0c0c0;
   }
 
-  &_gold{
+  &_gold {
     color: #ffd700;
   }
 
-  &_diamond{
+  &_diamond {
     color: #00eeff;
 
     animation: rainbow 0.6s 0s infinite alternate linear;
 
     @keyframes rainbow {
-      0%{
+      0% {
         color: #00eeff;
       }
-      20%{
+      20% {
         color: #93ff87;
       }
 
-      40%{
+      40% {
         color: #d7fffe;
       }
 
-      60%{
+      60% {
         color: #ff94ef;
       }
 
-      80%{
+      80% {
         color: #00eeff;
       }
 
-      100%{
+      100% {
         color: #00eeff;
       }
-      
     }
   }
 }
 
-
-.scoreboard_score_trophy{
+.scoreboard_score_trophy {
   font-size: 24px;
   margin-right: 12px;
 
-  &_bronze{
+  &_bronze {
     @extend .scoreboard_score_trophy;
-    filter: hue-rotate(320deg)  brightness(1.1) saturate(0.9);
+    filter: hue-rotate(320deg) brightness(1.1) saturate(0.9);
     color: #ffae70;
   }
 
-  &_silver{
+  &_silver {
     @extend .scoreboard_score_trophy;
-    filter: hue-rotate(150deg)  brightness(1.5) saturate(0.2);
+    filter: hue-rotate(150deg) brightness(1.5) saturate(0.2);
     color: #c0c0c0;
   }
 
-  &_gold{
+  &_gold {
     @extend .scoreboard_score_trophy;
-    filter: hue-rotate(350deg)  brightness(1.8) saturate(0.7);
+    filter: hue-rotate(350deg) brightness(1.8) saturate(0.7);
     color: #ffd700;
   }
 
-  &_diamond{
+  &_diamond {
     @extend .scoreboard_score_trophy;
     filter: hue-rotate(150deg) brightness(1.9);
     color: #00eeff;
@@ -135,34 +133,47 @@
     animation: rainbow 0.6s 0s infinite alternate linear;
 
     @keyframes rainbow {
-      0%{
+      0% {
         color: #00eeff;
       }
-      20%{
+      20% {
         color: #93ff87;
       }
 
-      40%{
+      40% {
         color: #d7fffe;
       }
 
-      60%{
+      60% {
         color: #ff94ef;
       }
 
-      80%{
+      80% {
         color: #00eeff;
       }
 
-      100%{
+      100% {
         color: #00eeff;
       }
-      
     }
   }
 }
 
-.scoreboard_score_label{
+.scoreboard_score_label {
   margin-left: 12px;
   font-size: smaller;
+}
+
+.reset_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  width: 200px;
+  height: 5vh;
+  min-height: 36px;
+  max-width: 80%;
+  max-height: 48px;
 }
