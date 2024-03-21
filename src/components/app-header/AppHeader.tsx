@@ -13,16 +13,27 @@ const AppHeader: React.FC<Props> = ({}) => {
 
   const handleSignOut = async () => {
     try {
-      // Assuming you're using an async signOut function
-      await signOut();
-      // Update local state or context to reflect that the user is no longer authenticated
-      dispatch(setUserInfo(null)); 
-      // Optionally, force a reload or redirect the user to a public page
-      window.location.href = '/'; // Redirect to home or login page
+      // Create an iframe and set Google's logout URL
+      const iframe = document.createElement('iframe');
+      iframe.style.display = 'none'; // Hide the iframe
+      iframe.src = 'https://accounts.google.com/logout';
+      document.body.appendChild(iframe);
+  
+      // Wait for the iframe to load Google's logout page
+      iframe.onload = async () => {
+        // Remove the iframe from the document
+        document.body.removeChild(iframe);
+  
+        // Proceed with your app's logout process
+        await signOut();
+        dispatch(setUserInfo(null));
+        window.location.href = '/';
+      };
     } catch (error) {
       console.error('Error signing out: ', error);
     }
   };
+  
 
   return (
     <div className="app_header">
