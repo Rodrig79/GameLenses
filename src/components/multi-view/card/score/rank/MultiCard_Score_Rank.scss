@@ -1,10 +1,19 @@
 .multi_card_score_rank {
   display: flex;
   font-size: medium;
-  flex-direction: row;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+
+  &_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+  }
 
   &_left {
     display: flex;
@@ -12,17 +21,17 @@
     font-size: medium;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
   }
 
   &_right {
     display: flex;
-    flex: 2;
+    flex: 1;
     font-size: medium;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
   }
 }

@@ -53,10 +53,8 @@ const MultiCard_Score_Rank: React.FC<Props> = ({ cardInfo }) => {
 
   return (
     <div className={"multi_card_score_rank"}>
-      <div className="multi_card_score_rank_left">
-        <label>Rank: </label>
-      </div>
-
+      <div  className={"multi_card_score_rank_top"}>
+    
       <div className="multi_card_score_rank_right">
         <div className="trophy_area">
           <div className="trophy_icon">
@@ -72,10 +70,13 @@ const MultiCard_Score_Rank: React.FC<Props> = ({ cardInfo }) => {
           </>
         </div>
 
-        <div className="score_trophy_value">
-          <label>[ {Math.ceil(score)} pts ]</label>
-        </div>
+     
+      </div>     
       </div>
+   
+      <div className="score_trophy_value">
+          <label> Score: {Math.ceil(score)} </label>
+        </div>
     </div>
   );
 };

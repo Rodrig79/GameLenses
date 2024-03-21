@@ -8,7 +8,6 @@
   align-items: center;
   justify-content: flex-start;
   padding-top: 12px;
-  
   box-sizing: border-box;
   background-color: #f63f3f;
   color: white;
@@ -87,10 +86,11 @@ box-sizing: border-box;
     min-height: 32px;
     min-width: 160px;
     border-radius: 12px;
+    font-size: x-small;
   }
 
   &_value {
-    font-size: medium;
+    font-size: small;
   }
 }
 
