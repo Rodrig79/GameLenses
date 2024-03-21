@@ -104,7 +104,7 @@
 }
 
 .scoreboard_score_trophy {
-  font-size: 24px;
+  font-size: large;
   margin-right: 12px;
 
   &_bronze {
@@ -159,9 +159,14 @@
   }
 }
 
+
+
 .scoreboard_score_label {
   margin-left: 12px;
-  font-size: smaller;
+  font-size: small;
+  background: rgba(7, 11, 65, 0.324);
+  border-radius: 8px;
+  padding: 2px 6px;
 }
 
 .reset_button{

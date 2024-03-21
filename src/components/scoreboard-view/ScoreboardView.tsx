@@ -64,7 +64,7 @@ const ScoreboardView: React.FC<Props> = ({}) => {
             <label className={`scoreboard_score_trophy_${rank}`}>🏆</label>
             <label className={`scoreboard_score_${rank}`}>#{rankNum}</label>
             <label className={`scoreboard_score_label`}>
-              [{Math.ceil(scoreboard[key].score)} pts]
+              {Math.ceil(scoreboard[key].score)} pts
             </label>
             <label className="scoreboard_title">{lensArray[key].title}</label>
           </button>
