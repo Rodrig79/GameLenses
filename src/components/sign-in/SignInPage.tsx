@@ -10,6 +10,7 @@ import { useAppDispatch, useAppSelector } from "../../redux-slices/hooks";
 import {
   selectUserInfo,
   setUserInfo,
+  setViewMode,
 } from "../../redux-slices/user-data/UserDataSlice";
 import "./SignInPage.scss";
 
@@ -47,8 +48,10 @@ const SignInPage = () => {
     try {
       const currentUser = await getCurrentUser();
       dispatch(setUserInfo(currentUser));
+      dispatch(setViewMode("multi"))
     } catch (error) {
       dispatch(setUserInfo(null));
+      dispatch(setViewMode("sign_in"))
       console.error(error);
       console.log("Not signed in");
     }

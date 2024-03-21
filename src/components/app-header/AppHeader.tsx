@@ -30,6 +30,7 @@ const AppHeader: React.FC<Props> = ({}) => {
         // Proceed with your app's logout process
         await signOut();
         dispatch(setUserInfo(null));
+        dispatch(setViewMode("sign_in"))
         window.location.href = "/";
       };
     } catch (error) {
