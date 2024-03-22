@@ -41,6 +41,13 @@ const awsmobile = {
     "aws_cognito_verification_mechanisms": [
         "EMAIL"
     ],
+    "aws_dynamodb_all_tables_region": "us-west-1",
+    "aws_dynamodb_table_schemas": [
+        {
+            "tableName": "UserData-dev",
+            "region": "us-west-1"
+        }
+    ],
     "aws_storage_bucket": "yourappname-yourappenv-files123456-uploads",
     "aws_storage_region": "us-west-2"
 };

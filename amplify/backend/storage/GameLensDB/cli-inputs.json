@@ -1,0 +1,10 @@
+{
+  "resourceName": "GameLensDB",
+  "tableName": "UserData",
+  "partitionKey": {
+    "fieldName": "userId",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

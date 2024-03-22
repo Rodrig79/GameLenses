@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "gamelensesaws396b4d88": {}
+      },
+      "storage": {
+        "GameLensDB": {}
       }
     }
   }
