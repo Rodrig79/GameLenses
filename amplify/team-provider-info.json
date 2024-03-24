@@ -9,7 +9,8 @@
       "UnauthRoleName": "amplify-gamelensesaws-dev-222255-unauthRole",
       "StackName": "amplify-gamelensesaws-dev-222255",
       "StackId": "arn:aws:cloudformation:us-west-1:533266988526:stack/amplify-gamelensesaws-dev-222255/1396a950-e743-11ee-81f7-02de0b4be9b1",
-      "AmplifyAppId": "dy1kvdit4vuhp"
+      "AmplifyAppId": "dy1kvdit4vuhp",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-gamelensesaws-dev-222255-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
@@ -17,6 +18,15 @@
       },
       "storage": {
         "GameLensDB": {}
+      },
+      "function": {
+        "SaveScoreboardData": {
+          "deploymentBucketName": "amplify-gamelensesaws-dev-222255-deployment",
+          "s3Key": "amplify-builds/SaveScoreboardData-534a54396f73516d6b77-build.zip"
+        }
+      },
+      "api": {
+        "GameLensScoreAPI": {}
       }
     }
   }

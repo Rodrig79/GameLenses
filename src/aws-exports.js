@@ -48,6 +48,13 @@ const awsmobile = {
             "region": "us-west-1"
         }
     ],
+    "aws_cloud_logic_custom": [
+        {
+            "name": "GameLensScoreAPI",
+            "endpoint": "https://7a9dctgf0g.execute-api.us-west-1.amazonaws.com/dev",
+            "region": "us-west-1"
+        }
+    ],
     "aws_storage_bucket": "yourappname-yourappenv-files123456-uploads",
     "aws_storage_region": "us-west-2"
 };

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/scores/{userId}": {
+      "name": "/scores/{userId}",
+      "lambdaFunction": "SaveScoreboardData",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@ import { ScoreboardType } from "../../types/ScoreboardType";
 import { CardArray } from "../../CardArray";
 import { GameLensType } from "../GameLensType";
 import "./ScoreboardView.scss";
+import axios from "axios";
 
 interface Props {}
 
@@ -18,21 +19,38 @@ const ScoreboardView: React.FC<Props> = ({}) => {
 
   const dispatch = useAppDispatch();
 
-  const resetScoreboard = () => {
+
+  
+
+  type ScoreboardType = {
+    [key: string]: {
+      imageID: string;
+      score: number;
+    };
+  };
+
+  
+  const saveScoreData = async () => {
+    try {
+      const newScoreData: ScoreboardType = scoreboard;
+      const response = await axios.post('https://your-api-id.execute-api.region.amazonaws.com/prod/saveScore', {
+        scoreData: newScoreData,
+      });
+  
+      console.log(response.data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+  const resetScoreData = () => {
     const newScoreboard: ScoreboardType = {};
     dispatch(setScoreboard(newScoreboard));
   };
 
-
   // Convert scoreboard object to an array and sort by score
-  const sortedKeys = Object.keys(scoreboard).sort(
-    (a, b) => {
-      return(
-    scoreboard[b].score - scoreboard[a].score)
-  }
-    
-  );
-
+  const sortedKeys = Object.keys(scoreboard).sort((a, b) => {
+    return scoreboard[b].score - scoreboard[a].score;
+  });
 
   // Calculate the number of players for each rank
   const cardArrayLength = sortedKeys.length;
@@ -44,7 +62,7 @@ const ScoreboardView: React.FC<Props> = ({}) => {
     <div className={"scoreboard_view"}>
       {sortedKeys.map((key, index) => {
         let rank: RankType = "bronze";
-        let rankNum = index + 1
+        let rankNum = index + 1;
         // Assign ranks based on index
         if (index < diamondCutoff) {
           rank = "diamond";
@@ -55,11 +73,13 @@ const ScoreboardView: React.FC<Props> = ({}) => {
         }
 
         return (
-          <button key={key} className="scoreboard_button"
-          onClick={()=>{
-            dispatch(setCardIndex(parseInt(key)))
-            dispatch(setViewMode("single"))
-          }}
+          <button
+            key={key}
+            className="scoreboard_button"
+            onClick={() => {
+              dispatch(setCardIndex(parseInt(key)));
+              dispatch(setViewMode("single"));
+            }}
           >
             <label className={`scoreboard_score_trophy_${rank}`}>🏆</label>
             <label className={`scoreboard_score_${rank}`}>#{rankNum}</label>
@@ -70,9 +90,12 @@ const ScoreboardView: React.FC<Props> = ({}) => {
           </button>
         );
       })}
-      <button 
-      className="reset_button"
-      onClick={resetScoreboard}>Reset Data</button>
+      <button className="reset_button" onClick={saveScoreData}>
+        Save Data
+      </button>
+      <button className="reset_button" onClick={resetScoreData}>
+        Reset Data
+      </button>
     </div>
   );
 };
